@@ -1,0 +1,281 @@
+.l-page {
+    width: 1200px;
+    /* height: 1500px; */
+    background: white;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    border-radius: 15px;
+}
+.l-containers {
+    margin: 0 auto;
+    /* border: black 1px solid; */
+    width: 1200px;
+    height: 1500px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.l-content {
+    margin: 0 auto;
+    /* border: black 1px solid; */
+    width: 1100px;
+    height: 1350px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.mypageForm_image {
+    width: 400px;
+    height: 200px;
+    /* border: solid 1px black; */
+    margin: 0 auto;
+}
+.fileInput {
+    margin: 0 auto;
+    /* border: solid 1px black; */
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 4%;
+}
+
+.mypageForm_image .formImageItem_preview img {
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+    margin-left: 35%;
+    margin-bottom: 4%;
+}
+.c-button .fileSelect{
+    border: solid 1px black;
+    width: 150px;
+    height: 30px;
+    margin-left: 30%;
+    margin-top: 5%;
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+    justify-content: center; /* 横方向中央揃え */
+    border-radius: 5px;
+    background: black;
+    color: white;
+}
+
+.mypageForm_content {
+    /* border: solid 1px black; */
+    width: 1100px;
+    height: 1000px;
+    margin-top: 2%;
+}
+.backpage {
+    display: inline-block;
+    margin-right: 4%;
+    width: 160px;
+    height: 40px;
+    /* background: black; */
+    /* color: white; */
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 8px 14px 5px 8px;
+}
+
+.mypageHeader_body  {
+    width: 850px;
+    height: 1000px;
+    margin: 0 auto;
+    /* border: solid 1px black; */
+}
+
+
+.formTable {
+    /* border: solid 1px black; */
+    width: 850px;
+    height: 1000px;
+}
+.formTable tbody tr {
+    border-bottom: solid 1px black;
+    display: flex;
+    padding-top: 4%;
+    padding-bottom: 4%;
+
+}
+
+.formTable_th {
+    width: 180px;
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    -webkit-justify-content: right; /* 横方向中央揃え（Safari用） */
+    justify-content: right;
+}
+.formTable_td {
+    width: 500px;
+    display: flex;
+    margin-left: 5%;
+    /* border: solid 1px black; */
+    display: flex;
+    /* margin-left: 20%; */
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    /* margin-left: 35%; */
+}
+
+.formText_user {
+    height: 40px;
+    width: 300px;
+    display: flex;
+    border: solid 3px rgb(139, 138, 138);
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    border-radius: 5px;
+    margin-left: 2%;
+    padding: 3px 3px 3px 3px;
+    /* margin-top: 2%; */
+}
+.formRadio_sex {
+    /* border: solid 1px black; */
+    width: 100px;
+    height: 35px;
+    display: flex;
+    /* margin-left: 20%; */
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    margin-left: 2%;
+}
+.formSelect {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.formSelect select {
+    width: 70px;
+    height: 35px;
+    border: solid 3px rgb(139, 138, 138);
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+    justify-content: center; /* 横方向中央揃え */
+    /* padding-right: 20px; */
+    text-align: center;
+    border-radius: 5px;
+}
+
+.formText_history {
+    width: 70px;
+    height: 35px;
+    border: solid 3px rgb(139, 138, 138);
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+    justify-content: center; /* 横方向中央揃え */
+    /* padding-right: 20px; */
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 2px;
+    border-radius: 5px;
+
+}
+
+.formText_home_sento {
+    height: 35px;
+    width: 500px;
+    display: flex;
+    border: solid 3px rgb(139, 138, 138);
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    margin-left: 2%;
+    border-radius: 5px;
+    padding: 3px 3px 3px 3px;
+}
+
+.formText_went_to {
+    height: 35px;
+    width: 500px;
+    display: flex;
+    border: solid 3px rgb(139, 138, 138);
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    margin-left: 2%;
+    border-radius: 5px;
+    padding: 3px 3px 3px 3px;
+}
+
+.formTextarea {
+    height: 250px;
+    width: 500px;
+    border: solid 3px rgb(139, 138, 138);
+    margin-left: 2%;
+    border-radius: 5px;
+    padding: 3px 3px 3px 3px;
+}
+
+.open {
+    height: 30px;
+    width: 50px;
+    display: flex;
+    /* border: solid 1px black; */
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+    justify-content: center; /* 横方向中央揃え */
+    margin-left: 5%;
+    border-radius: 15px;
+    background: #B01006;
+    color: white;
+    font-size: small;
+}
+
+.close {
+    height: 30px;
+    width: 55px;
+    display: flex;
+    /* border: solid 1px black; */
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+    justify-content: center; /* 横方向中央揃え */
+    margin-left: 5%;
+    border-radius: 15px;
+    background: rgb(94, 94, 94);
+    color: white;
+    font-size: small;
+}
+
+
+.c-form_button {
+    /* border: solid 1px black; */
+    margin: 0 auto;
+    width: 850px;
+    height: 60px;
+    margin-top: 0.5%;
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+    justify-content: center; /* 横方向中央揃え */
+}
+
+.c-button-submit {
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+    justify-content: center; /* 横方向中央揃え */
+    border: solid 1px black;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.error {
+    width: 400px;
+    color: black;
+    font-size: 16px;
+    margin-top: 5px;
+    /* border: black 1px solid; */
+}

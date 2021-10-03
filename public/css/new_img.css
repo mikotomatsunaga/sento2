@@ -1,0 +1,159 @@
+/* 施設登録の説明文 */
+
+.l-content {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 2%;
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding-bottom: 2%;
+}
+
+.l-content-wrap {
+    width: 1200px;
+    height: 200px;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+.l-content-wrap h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    padding-top: 5%;
+    padding-left: 6%;
+}
+
+.l-content-wrap p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 2%;
+    padding-left: 6%;
+    line-height: 2em;
+}
+
+.c-formSteps {
+    display: flex;
+    width: 1200px;
+    height: 100px;
+    background: #FFFFFF;
+}
+
+.c-formSteps {
+    width: 1200px;
+    padding-top: 5%;
+    border-radius: 10px;
+}
+.c-formSteps li {
+    margin-left: 17%;
+}
+
+.c-formSteps_step_active {
+    color: rgba(158, 13, 4, 0.92);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.c-formSteps_step {
+    margin-left: 8em;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* 施設登録の説明文 */
+
+.picture_register {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 4%;
+
+}
+
+.picture_register p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.formImages {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 4%;
+    /* border: black solid 1px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    /* 縦方向中央揃え（Safari用） */
+    align-items: center;
+    /* 縦方向中央揃え */
+    padding-bottom: 4%;
+}
+
+.formImageItem {
+    margin-top: 2em;
+    /* border: black solid 1px; */
+    width: 300px;
+    height: 350px;
+    margin-bottom: 2%;
+
+}
+.formImageItem_headline {
+    margin-bottom: 3%;
+    font-weight: bold;
+}
+
+.formImageItem_preview {
+    width: 300px;
+    height: 210px;
+    /* padding: 10px 10px 10px 10px; */
+    border: black solid 1px;
+    margin-bottom: 4%;
+}
+.formImageItem_button {
+    margin-top: 4%;
+    /* border: black solid 1px; */
+}
+.formImageItem_caption input{
+    width: 300px;
+    height: 30px;
+    border: black 1px solid;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}
+
+
+.delete {
+    margin-bottom: 5%;
+    color: brown;
+}
+
+.to_img_register_and_close {
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    padding-top: 3%;
+}
+.to_img_register {
+    display: inline-block;
+    width: 300px;
+    height: 70px;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    background: rgba(158, 13, 4, 0.92);
+    color: white;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+    justify-content: center; /* 横方向中央揃え */
+}
+
+

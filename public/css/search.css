@@ -1,0 +1,156 @@
+
+h3 {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 2em;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* 表示情報の切り替えボタン */
+
+.search_mode_change {
+    display: flex;
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    margin-top: 1%;
+    border-radius: 10px;
+    background: white;
+}
+.filterArea,.filterConditions,
+.filterItem-keyword,
+.filterItem-search {
+    display: flex;
+}
+.filterArea,.filterConditions{
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    margin-left: 2%;
+    border: rgb(119, 118, 118) 3px solid;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    margin-top: 2%;
+    padding: 10px 10px 10px 10px;
+
+}
+.filterItem_result {
+    margin-left: 2em;
+    margin-right: 1em;
+
+}
+.filterItem-keyword {
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    margin-left: 2%;
+    border: rgb(119, 118, 118) 3px solid;
+    border-radius: 10px;
+    width: 350px;
+    height: 50px;
+    margin-top: 2%;
+    padding: 15px 15px 15px 15px;
+}
+.filterItem_content {
+    margin-left: 1em;
+}
+.filterItem-search {
+    margin-left: 1em;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+    justify-content: center; /* 横方向中央揃え */
+    margin-left: 2%;
+    margin-top: 2%;
+    background: rgba(158, 13, 4, 0.92);
+    border-radius: 10px;
+    color: white;
+}
+
+/* 表示情報の切り替えボタン */
+
+/* 施設一覧の表示 */
+.topSentou {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.headlineHeader {
+    display: flex;
+
+}
+.narabi {
+    margin-left: 65%;
+}
+.kensakukekka {
+    margin-left: 2%;
+}
+
+
+.headline_string {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.topSentou_wrap {
+    width: 1200px;
+    background: white;
+    border-radius: 15px;
+    margin-top: 2%;
+}
+
+.topSentou_box {
+    display: flex;
+    width: 1100px;
+    height: 250px;
+}
+
+.topSentou_wrap_img {
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.topSentou_info {
+    /* margin-top: 2%; */
+    margin-left: 2%;
+}
+
+.topSentou_title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sentou_Item_address {
+    margin-top: 1%;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.596);
+}
+
+.Top_sento_datail {
+    margin-top: 1%;
+}
+
+.man ul, .woman ul {
+    display: flex;
+}
+
+.data_like_count {
+    display: flex;
+    margin-top: 1%;
+}
+
+.data_like_count li {
+    margin-right: 2%;
+}
+
+/* 施設一覧の表示 */
+

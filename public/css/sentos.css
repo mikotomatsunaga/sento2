@@ -1,0 +1,741 @@
+
+.l-containers {
+    width: 1200px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+
+.l-content {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 2%;
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding-bottom: 10%;
+}
+
+/* コンテンツヘッダー */
+.sentoDetail_wrap {
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    /* border: solid 1px black; */
+    padding-top: 3%;
+}
+
+.sentoDetailHeader_main {
+    width: 1000px;
+    /* border: solid 1px red; */
+    margin-top: 6%;
+}
+.sentoDetailHeader_middle {
+    display: flex;
+}
+.sentoDetailMeta {
+    display: flex;
+    width: 300px;
+    height: 30px;
+    margin: 0px 0px 0px auto;
+    font-weight: bold;
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    /* border: solid 1px red; */
+}
+.sentoDetailMeta_button {
+    width: 80px;
+    height: 30px;
+    border: solid 1px red;
+    /* margin-right: 2em; */
+    margin: 0px 0px 0px auto;
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+    justify-content: center; /* 横方向中央揃え */
+    border: solid 1px rgb(88, 88, 88);
+    border-radius: 5px;
+
+}
+
+.sentoDetailHeader_one {
+    width: 140px;
+    height: 30px;
+    /* padding: 10px  10px 10px 10px; */
+    border: solid 2px rgb(148, 59, 59);
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 1%;
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+    justify-content: center; /* 横方向中央揃え */
+}
+
+.sentoDetailHeader_two {
+    width: 220px;
+    height: 30px;
+    /* padding: 10px  10px 10px 10px; */
+    border: solid 2px rgb(148, 59, 59);
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+    justify-content: center; /* 横方向中央揃え */
+}
+
+.sentoDetailHeader_name {
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 0.2em;
+}
+
+.sentoDetailHeader_area {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0.5em;
+    color: rgb(104, 102, 102);
+}
+
+.share_mobileBlock {
+    width: 350px;
+    height: 40px;
+    display: flex;
+    /* border: solid 1px blue; */
+    margin-right: 1%;
+
+}
+
+.share_twitter {
+    width: 120px;
+    height: 30px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+    justify-content: center; /* 横方向中央揃え */
+    border-radius: 5px;
+    background: skyblue;
+    color: white;
+}
+
+.share_facebook {
+    width: 120px;
+    height: 30px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+    justify-content: center; /* 横方向中央揃え */
+    border-radius: 5px;
+    background: blue;
+    color: white;
+}
+
+.share_line {
+    width: 120px;
+    height: 30px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+    justify-content: center; /* 横方向中央揃え */
+    border-radius: 5px;
+    background: green;
+    color: white;
+}
+
+.sentoDetailHeader_action {
+    display: flex;
+    /* margin-right: 2em; */
+
+}
+
+.like_count_wrap {
+    display: flex;
+    margin: 0px 0px 0px auto;
+}
+.action_text {
+    width: 80px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 2em;
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+    justify-content: center; /* 横方向中央揃え */
+}
+.like_Counter {
+    width: 130px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+    justify-content: center; /* 横方向中央揃え */
+}
+/* モーダルウィンドウ */
+.no_scroll {
+    overflow: hidden;
+  }
+.modal{
+    display: none;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+.modal__bg{
+    background: rgba(148, 59, 59,0.8);
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+}
+.modal__content{
+    background: #fff;
+    left: 50%;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    width: 720px;
+    height: 765px;
+    border-radius: 10px;
+
+}
+.modal_form_box {
+    width: 650px;
+    height: 630px;
+    /* border: black 1px solid; */
+    margin: 0 auto;
+}
+.modal_form_head_menu {
+    width: 650px;
+    height: 40px;
+    display: flex;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    border-bottom: solid 1px black;
+    text-align: center;
+}
+.modal_form_head_menu a{
+    margin-left: 90%;
+    padding-top: 1%;
+}
+
+.modal_form_head_title {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+/* .modal_form_visit_date_box {
+    width: 630px;
+    height: 50px;
+    border-bottom: solid 1px black;
+} */
+.modal_form_visit_name {
+    width: 500px;
+    height: 35px;
+    border: solid 1px black;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}
+
+.modal_form_visit_date {
+    /* margin-top: 2%; */
+    width: 200px;
+    height: 35px;
+    border: solid 1px black;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+}
+.modal_form_visit_date input {
+    padding: 5px 5px 5px 5px;
+}
+.modal_form_sekatsu_comment {
+    width: 650px;
+    height: 200px;
+    border: solid 1px black;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+
+}
+.modal_form_men_temprature {
+    width: 55px;
+    height: 35px;
+    border: solid 1px black;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
+.modal_form_woman_temprature {
+    width: 55px;
+    height: 35px;
+    border: solid 1px black;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
+
+.modal_form_submit input{
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    padding: 5px 5px 5px 5px;
+    margin-left: 42%;
+    font-weight: bold;
+    border: black 1px solid;
+    text-align: center;
+    border-radius: 5px;
+    background: black;
+    color: white;
+}
+
+/* モーダルウィンドウ */
+
+
+/* コンテンツナビメニュー */
+
+.localNav {
+    width: 1000px;
+    height: 60px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+}
+.localNav_link_title {
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+    justify-content: center; /* 横方向中央揃え */
+}
+
+/* コンテンツナビメニュー */
+
+.headline {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-weight: bold;
+    font-size: 26px;
+    display: flexbox;
+    /* border: orange 1px solid; */
+}
+.headline_string {
+    border-bottom : 4px solid rgb(148, 59, 59) ;
+    padding-bottom: 20px;
+}
+
+.headline_string_sub {
+    font-size: 20px;
+
+}
+.squere {
+    width: 25px;
+    height: 25px;
+    margin-right: 0.5em;
+}
+
+
+/* 写真ギャラリー */
+
+.sentoDetailGallery_content {
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+/* .sentoDetailGalleryImage {
+    width: 1000px;
+} */
+
+.sentoDetailGalleryImage_image img{
+    width: 300px;
+    height: 200px;
+}
+
+/* 写真ギャラリー */
+
+
+
+
+/* 詳細情報メイン */
+
+.sentoDetailBody {
+    width: 1000px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+}
+/* .c-tab_action {
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.c-tab_buttons {
+    display: flex;
+} */
+.sentoSpec_men {
+    border: 4px solid rgb(31, 31, 145);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.sentoSpec_woman {
+    border: 4px solid rgb(148, 59, 59);
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-top: 2%;
+}
+
+.c-tab_content_men {
+    width: 1000px;
+    /* border: 1px solid black; */
+}
+.c-tab_content_woman {
+    width: 1000px;
+    /* border: 1px solid black; */
+}
+
+.sentoSpec_main {
+    width: 1000px;
+    height: 350px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.sentoSpec_bathroom {
+    width: 1000px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 3%;
+    border: 1px solid black;
+}
+
+
+.sentoSpecItem_title_men{
+
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    background:  rgb(31, 31, 145);
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sentoSpecItem_title_woman{
+
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    background:  rgb(168, 31, 31);
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sentoSpecItem_name,.sentoSpecItem_number,.sentoSpecItem_note,.sentoSpecItem_people{
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+    justify-content: center; /* 横方向中央揃え */
+    margin-top: 2%;
+}
+
+.sentoSpecTable {
+    width: 1000px;
+    height: 500px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    /* border: 3px solid blue; */
+}
+
+.sentoSpecTable_tbody {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+.sentoSpecTable_tbody tr {
+    width: 500px;
+    height: 50px;
+    /* border: 3px solid blue; */
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+    justify-content: center; /* 横方向中央揃え */
+}
+
+
+
+/* 詳細情報メイン */
+
+
+/* その他設備 */
+
+.sentoSpecDetail {
+    width: 1000px;
+    /* height: 1000px; */
+    padding-top: 3%;
+    /* border: 1px solid blue; */
+}
+
+.sentoSpecList {
+    width: 1000px;
+    margin: 0 auto;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3%;
+}
+.sentoSpecList_list {
+    /* border: 2px solid blue; */
+    display: flex;
+}
+
+.sentoSpecList_key {
+    width: 195px;
+    height: 35px;
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+
+}
+.sentoSpecList_value {
+    width: 50px;
+    height: 35px;
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+    justify-content: center; /* 横方向中央揃え */
+    margin-right: 0.2em;
+}
+.sentoDetailShop_info {
+    width: 570px;
+    margin-left: 3%;
+    /* border: 2px solid blue; */
+    /* padding: 0 20px 20px 20px; */
+}
+.c-table tr {
+    border-bottom: black 1px solid;
+
+}
+.c-table_th {
+    width: 150px;
+    height: 45px;
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+}
+.c-table_td {
+    padding-right: 5em;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+
+/* その他設備 */
+
+/* 基本情報 */
+
+.sentoDetailShop {
+    width: 1000px;
+    /* border: 2px solid blue; */
+}
+.sentoDetailShop_map {
+    margin-top: 25%;
+}
+.sentoDetailShop_content {
+    display: flex;
+}
+/* 基本情報 */
+
+/* セ活表示エリア */
+
+.sentoDetailSekatsu {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* セ活登録エリア */
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(152, 152, 152, 0.7);
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.post_process {
+    display: none;
+    position: fixed;
+    z-index: 15;
+    top: 30%;
+    left: 50%;
+    width: 600px;
+    padding: 10px;
+    background-color: #121212;
+    border-radius: 8px;
+    -webkit-transform: translate(-50%, -10%);
+    transform: translate(-50%, -10%);
+    color: #fff;
+    font-size: 1.3rem;
+    border: 0.3rem solid #fff;
+}
+
+/* セ活登録エリア */
+
+/* セ活メイン */
+.sekatsu_main {
+    width: 1000px;
+}
+
+.sekatsu_prof {
+    display: flex;
+}
+
+.postCard_icon {
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.postCardUser_content {
+    margin-top: 3.5%;
+    margin-left: 2%;
+}
+
+.postCardUser_name {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.postCardUser_info {
+    display: flex;
+}
+
+.postCardUser_date, .postCardUser_counter {
+    font-size: 16px;
+    margin-right: 10px;
+    margin-bottom: 12%;
+}
+
+.postCard_body {
+    margin-left: 10.5%;
+    margin-bottom: 4%;
+}
+
+.postCard_facility {
+    display: flex;
+    font-size: 20px;
+}
+
+.postCard_address {
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.postCard_text {
+    margin-top: 0.5em;
+    font-size: 18px;
+    line-height: 2em;
+}
+
+/* .postCard_image_box {
+    display: flex;
+}
+.postCard_image {
+    width: 30px;
+    height: 30px;
+} */
+
+/* セ活メイン */
+
+
+
+
+
+
+
+/* セ活表示エリア */
+
+
+/* WANTEDバナー */
+.wanted_banner {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+/* WANTEDバナー */
+
+/* 横２つバナー */
+
+.double_banner {
+    width: 1200px;
+    margin: 0 auto;
+    /* margin-left: 26%; */
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+}
+
+.double_banner_right {
+    margin-left: 12%;
+}
+
+/* 横２つバナー */
+

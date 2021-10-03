@@ -1,0 +1,274 @@
+body {
+    background: rgba(243, 243, 243, 1);
+
+}
+h3 {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 2em;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+/* 施設登録の説明文 */
+
+.l-content {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 2%;
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding-bottom: 3%;
+}
+
+
+/* マイページ */
+.mypage_wraper {
+    display: flex;
+    width: 1200px;
+    height: 430px;
+    background: white;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.prof_info_wrap {
+    display: flex;
+}
+.prof_info {
+    width: 350px;
+    height: 350px;
+    /* border: black 1px solid; */
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.prof_img {
+    width: 200px;
+    height: 350px;
+    /* border: black 1px solid; */
+    margin-top: 3%;
+}
+.sento_owners {
+    width: 650px;
+    height: 350px;
+    /* border: black 1px solid; */
+    margin: 3%;
+}
+.regist_day {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    margin-bottom: 2em;
+}
+.mypageHeaderUser_name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+}
+.sento_ticket {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    width: 120px;
+    height: 30px;
+    border: 3px solid rgba(4, 7, 158, 0.92);
+    border-radius: 5px;
+    font-weight: bold;
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+    justify-content: center; /* 横方向中央揃え */
+
+}
+
+.prof_desc {
+    margin-top: 3em;
+}
+.prof_desc li {
+    margin-bottom: 1em;
+}
+
+.mypageProfile_key {
+    font-weight: bold;
+}
+
+.prof_edit {
+    width: 195px;
+    height: 30px;
+    margin-top: 2em;
+    border: 3px solid rgba(158, 13, 4, 0.92);
+    border-radius: 5px;
+    font-weight: bold;
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+    justify-content: center; /* 横方向中央揃え */
+}
+
+.sento_owners button{
+    margin-left: 65%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+/* マイページ */
+
+/* 表示情報の切り替えボタン */
+
+.search_mode_change {
+    display: flex;
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    margin-top: 1%;
+    border-radius: 10px;
+    background: white;
+}
+.filterArea,.filterConditions,
+.filterItem-keyword,
+.filterItem-search {
+    display: flex;
+}
+.filterArea,.filterConditions{
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    margin-left: 2%;
+    border: rgb(119, 118, 118) 3px solid;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    margin-top: 2%;
+    padding: 10px 10px 10px 10px;
+
+}
+.filterItem_result {
+    margin-left: 2em;
+    margin-right: 1em;
+
+}
+.filterItem-keyword {
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    margin-left: 2%;
+    border: rgb(119, 118, 118) 3px solid;
+    border-radius: 10px;
+    width: 350px;
+    height: 50px;
+    margin-top: 2%;
+    padding: 15px 15px 15px 15px;
+}
+.filterItem_content {
+    margin-left: 1em;
+}
+.filterItem-search {
+    margin-left: 1em;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+    justify-content: center; /* 横方向中央揃え */
+    margin-left: 2%;
+    margin-top: 2%;
+    background: rgba(158, 13, 4, 0.92);
+    border-radius: 10px;
+    color: white;
+}
+
+
+/* 表示情報の切り替えボタン */
+
+/* セ活表示エリア */
+
+.sekatsu {
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.sekatsu_main {
+    width: 1200px;
+    background: white;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding-bottom: 1%;
+}
+
+.sekatsu_prof {
+    display: flex;
+}
+
+.postCard_icon {
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.postCardUser_content {
+    margin-top: 3.5%;
+    margin-left: 2%;
+}
+
+.postCardUser_name {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.postCardUser_info {
+    display: flex;
+}
+
+.postCardUser_date, .postCardUser_counter {
+    font-size: 16px;
+    margin-right: 10px;
+    margin-bottom: 12%;
+}
+
+.postCard_body {
+    margin-left: 10.5%;
+    margin-bottom: 6%;
+}
+
+.postCard_facility {
+    display: flex;
+    font-size: 20px;
+}
+
+.postCard_address {
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.postCard_text {
+    margin-top: 0.5em;
+    font-size: 18px;
+    line-height: 2em;
+}
+
+/* .postCard_image_box {
+    display: flex;
+}
+.postCard_image {
+    width: 30px;
+    height: 30px;
+} */
+
+.postCardAction {
+    display: flex;
+    margin-top: 2%;
+}
+
+
+/* セ活表示エリア */
+
+

@@ -1,0 +1,205 @@
+body {
+    background: rgba(243, 243, 243, 1);
+}
+
+/* ヘッダー */
+.top_bar {
+    display: flex;
+}
+
+.menu-left-bar {
+    display: flex;
+}
+
+.menu-left-box {
+    padding-left: 30px;
+    padding-top: 40px;
+}
+
+.menu-left-text {
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+
+.menu-right {
+    margin-left: auto;
+}
+
+.menu-right-bar {
+    display: flex;
+}
+
+.menu-right-box {
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 40px;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+
+.menu-right-text {
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+
+.menu-right-box-register {
+    padding-left: 10px;
+    padding-right: 40px;
+    padding-top: 40px;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+
+.menu-right-text-register {
+    display: inline-block;
+    font-size: large;
+    font-weight: bold;
+    color: rgba(176, 16, 6, 0.8);
+    background: white;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+/* ヘッダー */
+
+
+
+/* フッター検索 */
+
+.footer_content {
+    width: 1200px;
+    height: 430px;
+    /* margin-left: 25%; */
+    margin-top: 20%;
+    margin: 0 auto;
+    /* border: solid 1px black; */
+}
+
+.footerSearch_pref ul {
+    display: flex;
+}
+
+.footerSearch_conditions ul {
+    display: flex;
+}
+
+.footerSearch_area_title {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.footerSearch_areaname {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.footerSearch_pref_text {
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+/* フッター検索 */
+
+/* サイトマップ */
+
+footer {
+    background: #B01006;
+}
+
+.Sitemap {
+    padding-top: 2%;
+}
+
+.footerSitemap_content {
+    width: 1200px;
+    margin: 0 auto;
+    /* margin-left: 25%; */
+    margin-top: 3%;
+}
+
+.footerSitemap_main {
+    display: flex;
+}
+
+.footerSitemapItems {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerSitemapItem {
+    width: 220px;
+    height: 300px;
+    margin-right: 20px;
+}
+
+.footerSitemapItem h3 {
+    font-weight: bold;
+    color: white;
+}
+
+.footerSitemapItem li {
+    margin-top: 20px;
+}
+
+.footerSitemapItem li span {
+    font-size: 16px;
+    color: white;
+}
+
+/* サイトマップ */
+
+/* フッター */
+
+.foot {
+    width: 1200px;
+    height: 80px;
+    display: flex;
+    margin: 0 auto;
+    /* margin-left: 25%; */
+}
+
+.footerSns {
+    width: 600px;
+    display: flex;
+}
+
+.footerSns_detail ul {
+    width: 600px;
+    display: flex;
+    color: white;
+}
+
+.footerSns_detail ul li {
+    margin-left: 5%;
+}
+
+.footerNav {
+    width: 600px;
+}
+
+.footerNav ul {
+    display: flex;
+    margin-left: 11%;
+}
+
+.footerNav ul li {
+    display: flex;
+    margin-left: 2%;
+    color: white;
+}
+
+.footerNav small {
+    display: flex;
+    margin-left: 82%;
+    margin-top: 2%;
+    font-size: 13px;
+    color: white;
+}
+
+/* フッター */
+

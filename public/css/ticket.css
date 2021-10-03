@@ -1,0 +1,201 @@
+.headlineHeader {
+    width: 1200px;
+    height: 140px;
+    margin: 0 auto;
+    /* border: rgb(119, 118, 118) 3px solid; */
+    display: flex;
+}
+.headline {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.c-lead {
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 5.5%;
+    margin-left: 2%;
+}
+/* 表示情報の切り替えボタン */
+
+.search_mode_change {
+    display: flex;
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    margin-top: 1%;
+    border-radius: 10px;
+    background: white;
+}
+.filterArea,.filterConditions,
+.filterItem-keyword,
+.filterItem-search {
+    display: flex;
+}
+.filterArea,.filterConditions{
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    margin-left: 2%;
+    border: rgb(119, 118, 118) 3px solid;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    margin-top: 2%;
+    padding: 10px 10px 10px 10px;
+
+}
+.filterItem_result {
+    margin-left: 2em;
+    margin-right: 1em;
+
+}
+.filterItem-keyword {
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    margin-left: 2%;
+    border: rgb(119, 118, 118) 3px solid;
+    border-radius: 10px;
+    width: 350px;
+    height: 50px;
+    margin-top: 2%;
+    padding: 15px 15px 15px 15px;
+}
+.filterItem_content {
+    margin-left: 1em;
+}
+.filterItem-search {
+    margin-left: 1em;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+    justify-content: center; /* 横方向中央揃え */
+    margin-left: 2%;
+    margin-top: 2%;
+    background: rgba(158, 13, 4, 0.92);
+    border-radius: 10px;
+    color: white;
+}
+
+/* 表示情報の切り替えボタン */
+
+/* 新着銭湯の表示 */
+
+.topSentou_wrap {
+    width: 1200px;
+    background: white;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    margin-bottom: 5%;
+}
+
+.topSentou_box {
+    display: flex;
+    width: 1100px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 0 auto ;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    /* padding: 5px 5px 5px 5px; */
+
+}
+
+.topSentou_wrap_img {
+    margin-left: 1.5%;
+    margin-top: 1.5%;
+    /* padding: 5px 5px 5px 5px; */
+}
+
+.topSentou_info {
+    margin-top: 3%;
+    margin-left: 2%;
+    /* padding-top: 3%; */
+    width: 900px;
+    height: 140px;
+    /* border: 1px solid black; */
+}
+
+.topSentou_title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.sentou_Item_name_one {
+    margin-top: 4%;
+    font-size: 20px;
+    font-weight: 600;
+    color: #B01006;
+
+}
+.sentou_Item_name_two {
+    /* margin-top: 45%; */
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.596);
+}
+.topSentou_sub_box_two {
+    /* margin-left: 5%; */
+    width: 270px;
+    height: 40px;
+    /* border: 1px solid black; */
+    display: flex;
+    margin-left: 38%;
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+}
+
+.topSentou_info_box {
+    margin-top: 5.5%;
+    display: flex;
+    /* border: 1px solid black; */
+}
+.topSentou_mini_box {
+    width: 200px;
+    height: 50px;
+    display: flex;
+}
+
+.ticket_number {
+    width: 40px;
+    height: 25px;
+    border-radius: 5px;
+    background: rgba(176, 16, 6, 0.23);;
+    color: #B01006;
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+    justify-content: center; /* 横方向中央揃え */
+}
+.ticket_price {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    padding-left: 10%;
+
+}
+.ticket_tax {
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+color: #000000;
+padding-top: 3%;
+padding-left: 5%;
+
+}
+
+
+
+/* 新着銭湯の表示 */

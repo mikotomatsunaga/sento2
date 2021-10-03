@@ -1,0 +1,232 @@
+
+h3 {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 2em;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.headlineHeader {
+    width: 1200px;
+    height: 140px;
+    margin: 0 auto;
+    /* border: rgb(119, 118, 118) 3px solid; */
+    display: flex;
+}
+.headline {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.c-lead {
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 5.5%;
+    margin-left: 2%;
+}
+/* 表示情報の切り替えボタン */
+
+.search_mode_change {
+    display: flex;
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    margin-top: 1%;
+    border-radius: 10px;
+    background: white;
+}
+.filterArea,.filterConditions,
+.filterItem-keyword,
+.filterItem-search {
+    display: flex;
+}
+.filterArea,.filterConditions{
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    margin-left: 2%;
+    border: rgb(119, 118, 118) 3px solid;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    margin-top: 2%;
+    padding: 10px 10px 10px 10px;
+
+}
+.filterItem_result {
+    margin-left: 2em;
+    margin-right: 1em;
+
+}
+.filterItem-keyword {
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    margin-left: 2%;
+    border: rgb(119, 118, 118) 3px solid;
+    border-radius: 10px;
+    width: 350px;
+    height: 50px;
+    margin-top: 2%;
+    padding: 15px 15px 15px 15px;
+}
+.filterItem_content {
+    margin-left: 1em;
+}
+.filterItem-search {
+    margin-left: 1em;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+    justify-content: center; /* 横方向中央揃え */
+    margin-left: 2%;
+    margin-top: 2%;
+    background: rgba(158, 13, 4, 0.92);
+    border-radius: 10px;
+    color: white;
+}
+
+/* 表示情報の切り替えボタン */
+
+/* セ活使い方 */
+
+.sekatsuUse {
+    width: 1200px;
+    height: 460px;
+    margin: 0 auto;
+    background: white;
+    margin-top: 2%;
+    border-radius: 15px;
+    margin-bottom: 3%;
+}
+
+.sekatsuUs-title {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0.5%;
+    /* margin-left: 45%; */
+}
+
+.sekatsuUse-detail {
+    text-align: left;
+    font-size: 20px;
+    margin: 0 auto;
+    width: 1100px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    line-height: 30px;
+}
+
+.sekatsuUse-span {
+    text-align: center;
+    margin-left: 39%;
+    font-size: 18px;
+}
+
+.sekatsuUse_border img{
+    margin-top: 10px;
+    margin-left: 4%;
+}
+
+
+/* セ活使い方 */
+
+/* セ活メイン */
+
+.sekatsu_main {
+    width: 1200px;
+    background: white;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding-bottom: 7%;
+    margin-bottom: 4%;
+}
+
+.sekatsu_prof {
+    display: flex;
+}
+
+.postCard_icon {
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.postCardUser_content {
+    margin-top: 3.5%;
+    margin-left: 2%;
+}
+
+.postCardUser_name {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.postCardUser_info {
+    display: flex;
+}
+
+.postCardUser_date, .postCardUser_counter {
+    font-size: 16px;
+    margin-right: 10px;
+    margin-bottom: 12%;
+}
+
+.postCard_body {
+    margin-left: 10.5%;
+    margin-bottom: 4%;
+}
+
+.postCard_facility {
+    display: flex;
+    font-size: 20px;
+}
+
+.postCard_address {
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.postCard_text {
+    margin-top: 0.5em;
+    font-size: 18px;
+    line-height: 2em;
+}
+
+/* .postCard_image_box {
+    display: flex;
+}
+.postCard_image {
+    width: 30px;
+    height: 30px;
+} */
+
+.postCardAction {
+    display: flex;
+    margin-top: 2%;
+}
+
+.postCard_readmore {
+    width: 500px;
+    height: 100px;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+.readmore {
+    width: 200px;
+    height: 60px;
+    background: #B01006;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* セ活メイン */

@@ -1,0 +1,1148 @@
+/* 施設登録の説明文 */
+
+.l-content {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 2%;
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding-bottom: 5%;
+}
+
+.l-content-wrap {
+    width: 1200px;
+    height: 220px;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+
+.l-content-wrap h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    padding-top: 5%;
+    padding-left: 9%;
+}
+
+.l-content-wrap p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 2%;
+    padding-left: 9%;
+    line-height: 2em;
+}
+
+.c-formSteps {
+    display: flex;
+    width: 1200px;
+    height: 100px;
+    background: #FFFFFF;
+}
+
+.c-formSteps {
+    width: 1200px;
+    padding-top: 6.5%;
+    border-radius: 10px;
+}
+
+.c-formSteps li {
+    margin-left: 17%;
+}
+
+.c-formSteps_step_active {
+    color: rgba(158, 13, 4, 0.92);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.c-formSteps_step {
+    margin-left: 8em;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* 施設登録の説明文 */
+
+/* ヘッダー */
+
+/* 施設基本情報 */
+
+.basic_info {
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    padding-top: 5%;
+    line-height: 2em;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.basic_table {
+    width: 1000px;
+    height: 1500px;
+    margin: 0 auto;
+    padding-bottom: 3%;
+}
+.basic_table_title {
+    display: table-cell;
+    /* IE8から使用可能 */
+    vertical-align: middle;
+}
+
+.basic_table_underline {
+    width: 1000px;
+    border-bottom: solid 1px black;
+    height: 55px;
+
+}
+
+.facility_name {
+    width: 600px;
+    height: 35px;
+    border: black 1px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 4em;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    /* 縦方向中央揃え（Safari用） */
+    align-items: center;
+    /* 縦方向中央揃え */
+    border: #C4C4C4 3px solid;
+    border-radius: 5px;
+}
+
+.facility_type {
+    width: 380px;
+    height: 35px;
+    border: black 1px solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 4em;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    /* 縦方向中央揃え（Safari用） */
+    align-items: center;
+    /* 縦方向中央揃え */
+    border: #C4C4C4 3px solid;
+    border-radius: 5px;
+}
+
+.prefecture {
+    width: 150px;
+    height: 35px;
+    border: black 1px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 4em;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    /* 縦方向中央揃え（Safari用） */
+    align-items: center;
+    /* 縦方向中央揃え */
+    border: #C4C4C4 3px solid;
+    border-radius: 5px;
+}
+
+.postal_code {
+    width: 150px;
+    height: 35px;
+    border: black 1px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 4em;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    /* 縦方向中央揃え（Safari用） */
+    align-items: center;
+    /* 縦方向中央揃え */
+    border: #C4C4C4 3px solid;
+    border-radius: 5px;
+}
+
+.address1 {
+    width: 350px;
+    height: 35px;
+    border: black 1px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 4em;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    /* 縦方向中央揃え（Safari用） */
+    align-items: center;
+    /* 縦方向中央揃え */
+    border: #C4C4C4 3px solid;
+    border-radius: 5px;
+}
+
+.address2 {
+    width: 450px;
+    height: 35px;
+    border: black 1px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 4em;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    /* 縦方向中央揃え（Safari用） */
+    align-items: center;
+    /* 縦方向中央揃え */
+    border: #C4C4C4 3px solid;
+    border-radius: 5px;
+}
+
+.address3 {
+    width: 450px;
+    height: 35px;
+    border: black 1px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 4em;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    /* 縦方向中央揃え（Safari用） */
+    align-items: center;
+    /* 縦方向中央揃え */
+    border: #C4C4C4 3px solid;
+    border-radius: 5px;
+}
+
+.access {
+    width: 600px;
+    height: 120px;
+    border: black 1px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 4em;
+    border: #C4C4C4 3px solid;
+    border-radius: 5px;
+}
+
+.parking_info {
+    width: 450px;
+    height: 35px;
+    border: black 1px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 4em;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    /* 縦方向中央揃え（Safari用） */
+    align-items: center;
+    /* 縦方向中央揃え */
+    border: #C4C4C4 3px solid;
+    border-radius: 5px;
+}
+
+.telephone {
+    width: 200px;
+    height: 35px;
+    border: black 1px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 4em;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    /* 縦方向中央揃え（Safari用） */
+    align-items: center;
+    /* 縦方向中央揃え */
+    border: #C4C4C4 3px solid;
+    border-radius: 5px;
+}
+
+.web_home_page_wrap {
+    width: 600px;
+    height: 35px;
+    /* border: black 1px solid; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 4em;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    /* 縦方向中央揃え（Safari用） */
+    align-items: center;
+    /* 縦方向中央揃え */
+    border: #C4C4C4 3px solid;
+    border-radius: 5px;
+}
+
+.regular_holiday {
+    width: 600px;
+    height: 120px;
+    border: black 1px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 4em;
+    border: #C4C4C4 3px solid;
+    border-radius: 5px;
+}
+
+.business_hours {
+    width: 600px;
+    height: 120px;
+    border: black 1px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 4em;
+    border: #C4C4C4 3px solid;
+    border-radius: 5px;
+}
+
+.usefee {
+    width: 480px;
+    height: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 4em;
+}
+
+.adult_fee {
+    border: 1px solid black;
+    width: 70px;
+    height: 35px;
+    border: #C4C4C4 3px solid;
+    border-radius: 5px;
+}
+
+.child_fee {
+    border: 1px solid black;
+    width: 70px;
+    height: 35px;
+    border: #C4C4C4 3px solid;
+    border-radius: 5px;
+}
+
+.childfee_left {
+    margin-left: 2em;
+}
+
+.shuffled_bath {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 4em;
+}
+
+.top_switchArea_wrap {
+    width: 800px;
+    padding-left: 6%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* border: solid 1px black; */
+}
+
+/* === ボタンを表示するエリア ============================== */
+.top_switchArea {
+    line-height    : 30px;                /* 1行の高さ          */
+    letter-spacing : 0;                   /* 文字間             */
+    text-align     : center;              /* 文字位置は中央     */
+    font-size      : 15px;                /* 文字サイズ         */
+    position       : relative;            /* 親要素が基点       */
+    /* margin         : auto;                中央寄せ           */
+    width          : 141px;               /* ボタンの横幅       */
+    background     : #fff;                /* デフォルト背景色   */
+  }
+
+   /* === チェックボックス ==================================== */
+  .top_switchArea input[type="checkbox"] {
+    display        : none;            /* チェックボックス非表示 */
+  }
+
+   /* === チェックボックスのラベル（標準） ==================== */
+  .top_switchArea label {
+    display        : block;               /* ボックス要素に変更 */
+    box-sizing     : border-box;          /* 枠線を含んだサイズ */
+    height         : 36px;                /* ボタンの高さ       */
+    border         : 2px solid #000000;   /* 未選択タブのの枠線 */
+    border-radius  : 18px;                /* 角丸               */
+  }
+
+   /* === チェックボックスのラベル（ONのとき） ================ */
+  .top_switchArea input[type="checkbox"]:checked +label {
+    border-color   : #990000;             /* 選択タブの枠線     */
+  }
+
+   /* === 表示する文字（標準） ================================ */
+  .top_switchArea label span:after{
+    content        : "利用できない";               /* 表示する文字       */
+    padding        : 0 0 0 21px;          /* 表示する位置       */
+    color          : #000000;             /* 文字色             */
+  }
+
+   /* === 表示する文字（ONのとき） ============================ */
+  .top_switchArea  input[type="checkbox"]:checked + label span:after{
+    content        : "利用できる";                /* 表示する文字       */
+    padding        : 0 21px 0 0;          /* 表示する位置       */
+    color          : #990000;             /* 文字色             */
+  }
+
+   /* === 丸部分のSTYLE（標準） =============================== */
+  .top_switchArea #swImg {
+    position       : absolute;            /* 親要素からの相対位置*/
+    width          : 28px;                /* 丸の横幅           */
+    height         : 28px;                /* 丸の高さ           */
+    background     : #000000;             /* カーソルタブの背景 */
+    top            : 4px;                 /* 親要素からの位置   */
+    left           : 4px;                 /* 親要素からの位置   */
+    border-radius  : 14px;                /* 角丸               */
+    transition     : .2s;                 /* 滑らか変化         */
+  }
+
+   /* === 丸部分のSTYLE（ONのとき） =========================== */
+  .top_switchArea input[type="checkbox"]:checked ~ #swImg {
+    transform      : translateX(105px);    /* 丸も右へ移動       */
+    background     : #990000;             /* カーソルタブの背景 */
+  }
+
+
+/* 施設基本情報 */
+
+
+/* 浴室内にある設備 */
+
+.bathroom_info {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+
+.bathroom_info_box {
+    display: flex;
+    -webkit-align-items: center;
+    /* 縦方向中央揃え（Safari用） */
+    align-items: center;
+    /* 縦方向中央揃え */
+    border-bottom: solid 1px black;
+    width: 1000px;
+    height: 80px;
+}
+.bathroom_info_box strong {
+    width: 150px;
+    /* border: solid 1px black; */
+}
+
+.bathroom_info_box_in_box {
+    margin-left: 3em;
+    /* border: 1px black solid; */
+}
+
+.drink_spring {
+    margin-left: 4em;
+}
+
+.bathroom_info_box_two {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 4%;
+    /* border: black solid 1px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    /* 縦方向中央揃え（Safari用） */
+    align-items: center;
+    /* 縦方向中央揃え */
+}
+
+.bathroom_box_in_box_two {
+    margin-top: 2em;
+    /* border: black solid 1px; */
+    width: 300px;
+    height: 40px;
+    display: flex;
+    -webkit-align-items: center;
+    /* 縦方向中央揃え（Safari用） */
+    align-items: center;
+    /* 縦方向中央揃え */
+}
+
+.up_switchArea_wrap {
+    width: 800px;
+    padding-left: 6%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* border: solid 1px black; */
+}
+
+/* === ボタンを表示するエリア ============================== */
+
+.up_switchArea {
+    line-height: 30px;
+    /* 1行の高さ          */
+    letter-spacing: 0;
+    /* 文字間             */
+    text-align: center;
+    /* 文字位置は中央     */
+    font-size: 15px;
+    /* 文字サイズ         */
+    position: relative;
+    /* 親要素が基点       */
+    margin: auto;
+    margin-left: 0;
+    /* 中央寄せ           */
+    width: 92px;
+    /* ボタンの横幅       */
+    background: #fff;
+    /* デフォルト背景色   */
+    /* border: black 1px solid; */
+}
+
+/* === チェックボックス ==================================== */
+
+.up_switchArea input[type="checkbox"] {
+    display: none;
+    /* チェックボックス非表示 */
+}
+
+/* === チェックボックスのラベル（標準） ==================== */
+
+.up_switchArea label {
+    display: block;
+    /* ボックス要素に変更 */
+    box-sizing: border-box;
+    /* 枠線を含んだサイズ */
+    height: 36px;
+    /* ボタンの高さ       */
+    border: 2px solid #000000;
+    /* 未選択タブのの枠線 */
+    border-radius: 18px;
+    /* 角丸               */
+}
+
+/* === チェックボックスのラベル（ONのとき） ================ */
+
+.up_switchArea input[type="checkbox"]:checked+label {
+    border-color: #990000;
+    /* 選択タブの枠線     */
+}
+
+/* === 表示する文字（標準） ================================ */
+
+.up_switchArea label span:after {
+    content: "無し";
+    /* 表示する文字       */
+    padding: 0 0 0 21px;
+    /* 表示する位置       */
+    color: #000000;
+    /* 文字色             */
+}
+
+/* === 表示する文字（ONのとき） ============================ */
+
+.up_switchArea input[type="checkbox"]:checked+label span:after {
+    content: "有り";
+    /* 表示する文字       */
+    padding: 0 21px 0 0;
+    /* 表示する位置       */
+    color: #990000;
+    /* 文字色             */
+}
+
+/* === 丸部分のSTYLE（標準） =============================== */
+
+.up_switchArea #swImg {
+    position: absolute;
+    /* 親要素からの相対位置*/
+    width: 28px;
+    /* 丸の横幅           */
+    height: 28px;
+    /* 丸の高さ           */
+    background: #000000;
+    /* カーソルタブの背景 */
+    top: 4px;
+    /* 親要素からの位置   */
+    left: 4px;
+    /* 親要素からの位置   */
+    border-radius: 14px;
+    /* 角丸               */
+    transition: .2s;
+    /* 滑らか変化         */
+}
+
+/* === 丸部分のSTYLE（ONのとき） =========================== */
+
+.up_switchArea input[type="checkbox"]:checked~#swImg {
+    transform: translateX(56px);
+    /* 丸も右へ移動       */
+    background: #990000;
+    /* カーソルタブの背景 */
+}
+
+.capacity {
+    width: 480px;
+    height: 50px;
+    padding-top: 28px;
+    margin-bottom: 40px;
+    margin-left: 4em;
+    /* border:  1px solid black; */
+}
+
+.men_capacity {
+    border: 1px solid black;
+    width: 60px;
+    height: 35px;
+    border: #C4C4C4 3px solid;
+    border-radius: 5px;
+}
+
+.woman_capacity {
+    border: 1px solid black;
+    width: 60px;
+    height: 35px;
+    border: #C4C4C4 3px solid;
+    border-radius: 5px;
+}
+
+.woman_capacity_left {
+    margin-left: 2em;
+}
+
+.spring_quality {
+    width: 480px;
+    height: 50px;
+    padding-top: 26px;
+    margin-bottom: 40px;
+    margin-left: 4em;
+    /* border:  1px solid black; */
+}
+
+.spring_quality select{
+    width: 150px;
+    height: 35px;
+    border: black 1px solid;
+    /* margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 4em; */
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    /* 縦方向中央揃え（Safari用） */
+    align-items: center;
+    /* 縦方向中央揃え */
+    border: #C4C4C4 3px solid;
+    border-radius: 5px;
+}
+
+.temperature {
+    width: 480px;
+    height: 45px;
+    padding-top: 17px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 4em;
+    /* border:  1px solid black; */
+}
+
+.men_temperature {
+    border: 1px solid black;
+    width: 60px;
+    height: 35px;
+    border: #C4C4C4 3px solid;
+    border-radius: 5px;
+}
+
+.woman_temperature {
+    border: 1px solid black;
+    width: 60px;
+    height: 35px;
+    border: #C4C4C4 3px solid;
+    border-radius: 5px;
+}
+
+.woman_temperature_left {
+    margin-left: 2em;
+}
+
+
+/* 浴室内にある設備 */
+
+/* その他、施設情報など */
+
+/* === ボタンを表示するエリア ============================== */
+
+.switchArea {
+    line-height: 30px;
+    /* 1行の高さ          */
+    letter-spacing: 0;
+    /* 文字間             */
+    text-align: center;
+    /* 文字位置は中央     */
+    font-size: 15px;
+    /* 文字サイズ         */
+    position: relative;
+    /* 親要素が基点       */
+    margin: auto;
+    margin-right: 0px;
+    /* 中央寄せ           */
+    width: 92px;
+    /* ボタンの横幅       */
+    background: #fff;
+    /* デフォルト背景色   */
+    /* border: black 1px solid; */
+}
+
+/* === チェックボックス ==================================== */
+
+.switchArea input[type="checkbox"] {
+    display: none;
+    /* チェックボックス非表示 */
+}
+
+/* === チェックボックスのラベル（標準） ==================== */
+
+.switchArea label {
+    display: block;
+    /* ボックス要素に変更 */
+    box-sizing: border-box;
+    /* 枠線を含んだサイズ */
+    height: 36px;
+    /* ボタンの高さ       */
+    border: 2px solid #000000;
+    /* 未選択タブのの枠線 */
+    border-radius: 18px;
+    /* 角丸               */
+}
+
+/* === チェックボックスのラベル（ONのとき） ================ */
+
+.switchArea input[type="checkbox"]:checked+label {
+    border-color: #990000;
+    /* 選択タブの枠線     */
+}
+
+/* === 表示する文字（標準） ================================ */
+
+.switchArea label span:after {
+    content: "無し";
+    /* 表示する文字       */
+    padding: 0 0 0 21px;
+    /* 表示する位置       */
+    color: #000000;
+    /* 文字色             */
+}
+
+/* === 表示する文字（ONのとき） ============================ */
+
+.switchArea input[type="checkbox"]:checked+label span:after {
+    content: "有り";
+    /* 表示する文字       */
+    padding: 0 21px 0 0;
+    /* 表示する位置       */
+    color: #990000;
+    /* 文字色             */
+}
+
+/* === 丸部分のSTYLE（標準） =============================== */
+
+.switchArea #swImg {
+    position: absolute;
+    /* 親要素からの相対位置*/
+    width: 28px;
+    /* 丸の横幅           */
+    height: 28px;
+    /* 丸の高さ           */
+    background: #000000;
+    /* カーソルタブの背景 */
+    top: 4px;
+    /* 親要素からの位置   */
+    left: 4px;
+    /* 親要素からの位置   */
+    border-radius: 14px;
+    /* 角丸               */
+    transition: .2s;
+    /* 滑らか変化         */
+}
+
+/* === 丸部分のSTYLE（ONのとき） =========================== */
+
+.switchArea input[type="checkbox"]:checked~#swImg {
+    transform: translateX(56px);
+    /* 丸も右へ移動       */
+    background: #990000;
+    /* カーソルタブの背景 */
+}
+
+.facility {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 5%;
+    /* border: black solid 1px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    /* 縦方向中央揃え（Safari用） */
+    align-items: center;
+    /* 縦方向中央揃え */
+}
+
+.facility p {
+    margin-bottom: 2em;
+}
+
+.facility_box {
+    margin-top: 2em;
+    /* border: black solid 1px; */
+    width: 300px;
+    height: 40px;
+    display: flex;
+    -webkit-align-items: center;
+    /* 縦方向中央揃え（Safari用） */
+    align-items: center;
+    /* 縦方向中央揃え */
+}
+
+/* その他、施設情報など */
+
+/* ルール */
+
+.rule {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 4%;
+    /* border: black solid 1px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    /* 縦方向中央揃え（Safari用） */
+    align-items: center;
+    /* 縦方向中央揃え */
+}
+
+.rule_box {
+    margin-top: 2em;
+    /* border: black solid 1px; */
+    width: 300px;
+    height: 40px;
+    display: flex;
+    -webkit-align-items: center;
+    /* 縦方向中央揃え（Safari用） */
+    align-items: center;
+    /* 縦方向中央揃え */
+}
+
+/* ルール */
+
+/* アメニティ */
+
+.amenity {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 5%;
+    /* border: black solid 1px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    /* 縦方向中央揃え（Safari用） */
+    align-items: center;
+    /* 縦方向中央揃え */
+}
+
+.amenity_box {
+    margin-top: 2em;
+    /* border: black solid 1px; */
+    width: 300px;
+    height: 40px;
+    display: flex;
+    -webkit-align-items: center;
+    /* 縦方向中央揃え（Safari用） */
+    align-items: center;
+    /* 縦方向中央揃え */
+}
+
+/* アメニティ */
+
+/* 施設補足 */
+
+.facility_supplement {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 7%;
+}
+.facility_supplement_box_wrap {
+    padding-left: 8em;
+}
+
+.facility_supplement_box {
+    width: 600px;
+    height: 220px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: #C4C4C4 3px solid;
+    border-radius: 5px;
+}
+
+
+.closed_info {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+.closed_info_box_wrap {
+    padding-left: 5em;
+}
+
+
+.closed_info_box {
+    width: 600px;
+    height: 220px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: #C4C4C4 3px solid;
+    border-radius: 5px;
+}
+
+.temp_close_info_source_box_wrap {
+    padding-left: 5em;
+}
+
+.temp_close_info_source_box {
+    width: 600px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: #C4C4C4 3px solid;
+    border-radius: 5px;
+}
+
+.store_closed_signal_wrap {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 4%;
+    /* border: black solid 1px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    /* 縦方向中央揃え（Safari用） */
+    align-items: center;
+    /* 縦方向中央揃え */
+}
+
+.store_closed_signal_box {
+    margin-top: 2.5em;
+    /* border: black solid 1px; */
+    width: 600px;
+    height: 40px;
+    display: flex;
+    -webkit-align-items: center;
+    /* 縦方向中央揃え（Safari用） */
+    align-items: center;
+    /* 縦方向中央揃え */
+}
+
+/* === ボタンを表示するエリア ============================== */
+.close_switchArea {
+    line-height    : 30px;                /* 1行の高さ          */
+    letter-spacing : 0;                   /* 文字間             */
+    text-align     : center;              /* 文字位置は中央     */
+    font-size      : 15px;                /* 文字サイズ         */
+    position       : relative;            /* 親要素が基点       */
+    /* margin         : auto;                中央寄せ           */
+    width          : 141px;               /* ボタンの横幅       */
+    background     : #fff;                /* デフォルト背景色   */
+    margin-left: 3em;
+  }
+
+   /* === チェックボックス ==================================== */
+  .close_switchArea input[type="checkbox"] {
+    display        : none;            /* チェックボックス非表示 */
+  }
+
+   /* === チェックボックスのラベル（標準） ==================== */
+  .close_switchArea label {
+    display        : block;               /* ボックス要素に変更 */
+    box-sizing     : border-box;          /* 枠線を含んだサイズ */
+    height         : 36px;                /* ボタンの高さ       */
+    border         : 2px solid #000000;   /* 未選択タブのの枠線 */
+    border-radius  : 18px;                /* 角丸               */
+  }
+
+   /* === チェックボックスのラベル（ONのとき） ================ */
+  .close_switchArea input[type="checkbox"]:checked +label {
+    border-color   : #990000;             /* 選択タブの枠線     */
+  }
+
+   /* === 表示する文字（標準） ================================ */
+  .close_switchArea label span:after{
+    content        : "営業中";               /* 表示する文字       */
+    padding        : 0 0 0 21px;          /* 表示する位置       */
+    color          : #000000;             /* 文字色             */
+  }
+
+   /* === 表示する文字（ONのとき） ============================ */
+  .close_switchArea  input[type="checkbox"]:checked + label span:after{
+    content        : "閉店";                /* 表示する文字       */
+    padding        : 0 21px 0 0;          /* 表示する位置       */
+    color          : #990000;             /* 文字色             */
+  }
+
+   /* === 丸部分のSTYLE（標準） =============================== */
+  .close_switchArea #swImg {
+    position       : absolute;            /* 親要素からの相対位置*/
+    width          : 28px;                /* 丸の横幅           */
+    height         : 28px;                /* 丸の高さ           */
+    background     : #000000;             /* カーソルタブの背景 */
+    top            : 4px;                 /* 親要素からの位置   */
+    left           : 4px;                 /* 親要素からの位置   */
+    border-radius  : 14px;                /* 角丸               */
+    transition     : .2s;                 /* 滑らか変化         */
+  }
+
+   /* === 丸部分のSTYLE（ONのとき） =========================== */
+  .close_switchArea input[type="checkbox"]:checked ~ #swImg {
+    transform      : translateX(105px);    /* 丸も右へ移動       */
+    background     : #990000;             /* カーソルタブの背景 */
+  }
+
+
+
+
+
+/* 施設補足 */
+
+/* ボタン */
+
+/* 写真の登録 */
+
+.to_img_register_and_close {
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    padding-top: 3%;
+}
+
+.to_img_register {
+    display: inline-block;
+    width: 300px;
+    height: 70px;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    background: rgba(158, 13, 4, 0.92);
+    color: white;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    /* 縦方向中央揃え（Safari用） */
+    align-items: center;
+    /* 縦方向中央揃え */
+    -webkit-justify-content: center;
+    /* 横方向中央揃え（Safari用） */
+    justify-content: center;
+    /* 横方向中央揃え */
+}
+
+/* ボタン */
+
+.picture_register {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 4%;
+
+}
+
+.picture_register p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.formImages {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 4%;
+    /* border: black solid 1px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    /* 縦方向中央揃え（Safari用） */
+    align-items: center;
+    /* 縦方向中央揃え */
+    padding-bottom: 4%;
+}
+
+.formImageItem {
+    margin-top: 2em;
+    /* border: black solid 1px; */
+    width: 300px;
+    height: 350px;
+    margin-bottom: 2%;
+
+}
+.formImageItem_headline {
+    margin-bottom: 3%;
+    font-weight: bold;
+}
+
+.formImageItem_preview {
+    width: 300px;
+    height: 210px;
+    /* padding: 10px 10px 10px 10px; */
+    border: black solid 1px;
+    margin-bottom: 4%;
+}
+.formImageItem_button {
+    margin-top: 4%;
+    /* border: black solid 1px; */
+}
+.formImageItem_caption input{
+    width: 300px;
+    height: 30px;
+    border: black 1px solid;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}
+
+
+.delete {
+    margin-bottom: 5%;
+    color: brown;
+}
+
+.to_img_register_and_close {
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    padding-top: 3%;
+}
+.to_img_register {
+    display: inline-block;
+    width: 300px;
+    height: 70px;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    background: rgba(158, 13, 4, 0.92);
+    color: white;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+    justify-content: center; /* 横方向中央揃え */
+}
+
+
+/* 写真の登録 */

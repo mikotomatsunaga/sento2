@@ -1,0 +1,73 @@
+body {
+    background: rgba(243, 243, 243, 1);
+}
+h3 {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 2em;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* ヘッダー */
+.top_bar {
+    display: flex;
+}
+
+.menu-left-bar {
+    display: flex;
+}
+
+.menu-left-box {
+    padding-left: 30px;
+    padding-top: 40px;
+}
+
+.menu-left-text {
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+
+.menu-right {
+    margin-left: auto;
+}
+
+.menu-right-bar {
+    display: flex;
+}
+
+.menu-right-box {
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 40px;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+.menu-right-text {
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+
+.menu-right-box-register {
+    padding-left: 10px;
+    padding-right: 40px;
+    padding-top: 40px;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+
+.menu-right-text-register {
+    display: inline-block;
+    font-size: large;
+    font-weight: bold;
+    color: rgba(176, 16, 6, 0.8);
+    background: white;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+/* ヘッダー */
