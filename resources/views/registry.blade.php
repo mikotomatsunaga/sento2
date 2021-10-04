@@ -15,7 +15,7 @@
 
     <div class="register">
         <div class="register_content">
-            <h1 class="register_logo"><a href="/"><img src="{{ asset('img/セントイキタイロゴ.png') }}" width=180 height=140 alt="サウナイキタイ ログイン"></a></h1>
+            <h1 class="register_logo"><a href="/"><img src="{{ url('img/セントイキタイロゴ.png') }}" width=180 height=140 alt="サウナイキタイ ログイン"></a></h1>
 
             <div class="tab" data-current="register">
 
