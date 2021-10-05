@@ -53,9 +53,7 @@
                     <a href="{{ route('sento.show', $sento) }}">
                         <!-- 新着銭湯(1)-->
                         <div class="topSentou_wrap_img">
-                            {{-- <img src="https://img.sauna-ikitai.com/sauna/11064_20210410_121359_DB3RkywNQH_medium.jpg"
-                                width=270 height=200 alt="Smart Stay SHIZUKU 品川大井町 写真"> --}}
-                            <img src="{{ $sento->main_img }}"
+                            <img src="https://img.sauna-ikitai.com/sauna/11064_20210410_121359_DB3RkywNQH_medium.jpg"
                                 width=270 height=200 alt="Smart Stay SHIZUKU 品川大井町 写真">
                             <a href=""></a>
                         </div>

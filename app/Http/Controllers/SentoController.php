@@ -16,7 +16,7 @@ class SentoController extends Controller
     public function index()
     {
 
-        $sentos = Sento::simplePaginate(1);
+        $sentos = Sento::simplePaginate(15);
         // dd($sentos);
 
         return view('search',compact('sentos'));
@@ -31,14 +31,14 @@ class SentoController extends Controller
      * @return \Illuminate\Http\Response
      */
 
-    public function show(Sento $sento)
+    public function show(Sento $sentos)
     {
         // $sento = Sento::latest()->get();
         // $sento = Sento::first();
         // dd($sento);
 
         return view('sentos')
-            ->with(['sento' => $sento]);
+            ->with(['sentos' => $sentos]);
 
 
     }

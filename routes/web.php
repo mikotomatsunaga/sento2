@@ -78,7 +78,7 @@ Route::get('/search', [SentoController::class, 'index'])
 Route::get('/sento/create', [SentoController::class, 'create'])
     ->name('sento.create');
 
-Route::get('/sento/{sento}', [SentoController::class, 'show'])
+Route::get('/sento/{sentos}', [SentoController::class, 'show'])
     ->name('sento.show')
     ->where('sento','[0-9]+');
 

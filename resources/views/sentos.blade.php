@@ -56,16 +56,16 @@
                     <div class="sentoDetailHeader_main">
                         <div class="sentoDetailHeader_middle">
                             <p class="sentoDetailHeader_one">利用対象：
-                                @if($sento->target_of_use === 'mens_only')
+                                @if($sentos->target_of_use === 'mens_only')
                                 男性
-                                @elseif($sento->target_of_use === 'womans_only')
+                                @elseif($sentos->target_of_use === 'womans_only')
                                 女性
-                                @elseif($sento->target_of_use === 'mens_and_womans_use')
+                                @elseif($sentos->target_of_use === 'mens_and_womans_use')
                                 男女
                                 @endif
                             </p>
                             <p class="sentoDetailHeader_two">男湯・女湯の入替え：
-                                @if($sento->change_spring === 0)
+                                @if($sentos->change_spring === 0)
                                 無し
                                 @else
                                 有り
@@ -83,104 +83,104 @@
                             </div>
                             {{-- 登録者情報その他 --}}
                         </div>
-                        <h1 class="sentoDetailHeader_name">{{ $sento->name }}</h1>
+                        <h1 class="sentoDetailHeader_name">{{ $sentos->name }}</h1>
                         <p class="sentoDetailHeader_area">
-                            @if($sento->prefecture_code === '01')
+                            @if($sentos->prefecture_code === '01')
                             北海道
-                            @elseif($sento->prefecture_code === '02')
+                            @elseif($sentos->prefecture_code === '02')
                             青森県
-                            @elseif($sento->prefecture_code === '03')
+                            @elseif($sentos->prefecture_code === '03')
                             岩手県
-                            @elseif($sento->prefecture_code === '04')
+                            @elseif($sentos->prefecture_code === '04')
                             宮城県
-                            @elseif($sento->prefecture_code === '05')
+                            @elseif($sentos->prefecture_code === '05')
                             秋田県
-                            @elseif($sento->prefecture_code === '06')
+                            @elseif($sentos->prefecture_code === '06')
                             山形県
-                            @elseif($sento->prefecture_code === '07')
+                            @elseif($sentos->prefecture_code === '07')
                             福島県
-                            @elseif($sento->prefecture_code === '08')
+                            @elseif($sentos->prefecture_code === '08')
                             茨城県
-                            @elseif($sento->prefecture_code === '09')
+                            @elseif($sentos->prefecture_code === '09')
                             栃木県
-                            @elseif($sento->prefecture_code === '10')
+                            @elseif($sentos->prefecture_code === '10')
                             群馬県
-                            @elseif($sento->prefecture_code === '11')
+                            @elseif($sentos->prefecture_code === '11')
                             埼玉県
-                            @elseif($sento->prefecture_code === '12')
+                            @elseif($sentos->prefecture_code === '12')
                             千葉県
-                            @elseif($sento->prefecture_code === '13')
+                            @elseif($sentos->prefecture_code === '13')
                             東京都
-                            @elseif($sento->prefecture_code === '14')
+                            @elseif($sentos->prefecture_code === '14')
                             神奈川県
-                            @elseif($sento->prefecture_code === '15')
+                            @elseif($sentos->prefecture_code === '15')
                             新潟県
-                            @elseif($sento->prefecture_code === '16')
+                            @elseif($sentos->prefecture_code === '16')
                             富山県
-                            @elseif($sento->prefecture_code === '17')
+                            @elseif($sentos->prefecture_code === '17')
                             石川県
-                            @elseif($sento->prefecture_code === '18')
+                            @elseif($sentos->prefecture_code === '18')
                             福井県
-                            @elseif($sento->prefecture_code === '19')
+                            @elseif($sentos->prefecture_code === '19')
                             山梨県
-                            @elseif($sento->prefecture_code === '20')
+                            @elseif($sentos->prefecture_code === '20')
                             長野県
-                            @elseif($sento->prefecture_code === '21')
+                            @elseif($sentos->prefecture_code === '21')
                             岐阜県
-                            @elseif($sento->prefecture_code === '22')
+                            @elseif($sentos->prefecture_code === '22')
                             静岡県
-                            @elseif($sento->prefecture_code === '23')
+                            @elseif($sentos->prefecture_code === '23')
                             愛知県
-                            @elseif($sento->prefecture_code === '24')
+                            @elseif($sentos->prefecture_code === '24')
                             三重県
-                            @elseif($sento->prefecture_code === '25')
+                            @elseif($sentos->prefecture_code === '25')
                             滋賀県
-                            @elseif($sento->prefecture_code === '26')
+                            @elseif($sentos->prefecture_code === '26')
                             京都府
-                            @elseif($sento->prefecture_code === '27')
+                            @elseif($sentos->prefecture_code === '27')
                             大阪府
-                            @elseif($sento->prefecture_code === '28')
+                            @elseif($sentos->prefecture_code === '28')
                             兵庫県
-                            @elseif($sento->prefecture_code === '29')
+                            @elseif($sentos->prefecture_code === '29')
                             奈良県
-                            @elseif($sento->prefecture_code === '30')
+                            @elseif($sentos->prefecture_code === '30')
                             和歌山県
-                            @elseif($sento->prefecture_code === '31')
+                            @elseif($sentos->prefecture_code === '31')
                             鳥取県
-                            @elseif($sento->prefecture_code === '32')
+                            @elseif($sentos->prefecture_code === '32')
                             島根県
-                            @elseif($sento->prefecture_code === '33')
+                            @elseif($sentos->prefecture_code === '33')
                             岡山県
-                            @elseif($sento->prefecture_code === '34')
+                            @elseif($sentos->prefecture_code === '34')
                             広島県
-                            @elseif($sento->prefecture_code === '35')
+                            @elseif($sentos->prefecture_code === '35')
                             山口県
-                            @elseif($sento->prefecture_code === '36')
+                            @elseif($sentos->prefecture_code === '36')
                             徳島県
-                            @elseif($sento->prefecture_code === '37')
+                            @elseif($sentos->prefecture_code === '37')
                             香川県
-                            @elseif($sento->prefecture_code === '38')
+                            @elseif($sentos->prefecture_code === '38')
                             愛媛県
-                            @elseif($sento->prefecture_code === '39')
+                            @elseif($sentos->prefecture_code === '39')
                             高知県
-                            @elseif($sento->prefecture_code === '40')
+                            @elseif($sentos->prefecture_code === '40')
                             福岡県
-                            @elseif($sento->prefecture_code === '41')
+                            @elseif($sentos->prefecture_code === '41')
                             佐賀県
-                            @elseif($sento->prefecture_code === '42')
+                            @elseif($sentos->prefecture_code === '42')
                             長崎県
-                            @elseif($sento->prefecture_code === '43')
+                            @elseif($sentos->prefecture_code === '43')
                             熊本県
-                            @elseif($sento->prefecture_code === '44')
+                            @elseif($sentos->prefecture_code === '44')
                             大分県
-                            @elseif($sento->prefecture_code === '45')
+                            @elseif($sentos->prefecture_code === '45')
                             宮崎県
-                            @elseif($sento->prefecture_code === '46')
+                            @elseif($sentos->prefecture_code === '46')
                             鹿児島県
-                            @elseif($sento->prefecture_code === '47')
+                            @elseif($sentos->prefecture_code === '47')
                             沖縄県
                             @endif
-                            {{ $sento->address1 }}
+                            {{ $sentos->address1 }}
                         </p>
                     </div>
 
@@ -434,33 +434,33 @@
                                         <div class="sentoSpec_bathroom">
                                             <div class="sentoSpecItem">
                                                 <p class="sentoSpecItem_title_men">男湯</p>
-                                                <p class="sentoSpecItem_people"><span>収容人数:<strong>{{ $sento->men_capacity }}</strong>人</span></p>
+                                                <p class="sentoSpecItem_people"><span>収容人数:<strong>{{ $sentos->men_capacity }}</strong>人</span></p>
                                                 <p class="sentoSpecItem_number"><span>泉質:<strong>
-                                                @if($sento->spring_quality === '01')
+                                                @if($sentos->spring_quality === '01')
                                                 特に無し
-                                                @elseif($sento->spring_quality === '02')
+                                                @elseif($sentos->spring_quality === '02')
                                                 単純温泉
-                                                @elseif($sento->spring_quality === '03')
+                                                @elseif($sentos->spring_quality === '03')
                                                 二酸化炭素泉
-                                                @elseif($sento->spring_quality === '04')
+                                                @elseif($sentos->spring_quality === '04')
                                                 炭酸水素塩泉
-                                                @elseif($sento->spring_quality === '05')
+                                                @elseif($sentos->spring_quality === '05')
                                                 塩化物泉
-                                                @elseif($sento->spring_quality === '06')
+                                                @elseif($sentos->spring_quality === '06')
                                                 硫酸塩泉
-                                                @elseif($sento->spring_quality === '07')
+                                                @elseif($sentos->spring_quality === '07')
                                                 含鉄泉
-                                                @elseif($sento->spring_quality === '08')
+                                                @elseif($sentos->spring_quality === '08')
                                                 硫黄泉
-                                                @elseif($sento->spring_quality === '09')
+                                                @elseif($sentos->spring_quality === '09')
                                                 酸性泉
-                                                @elseif($sento->spring_quality === '10')
+                                                @elseif($sentos->spring_quality === '10')
                                                 放射能泉
                                                 @endif
                                                 </strong></span></p>
-                                                <p class="sentoSpecItem_number"><span>メイン浴槽の温度:<strong>{{ $sento->men_temperature }}</strong>度</span></p>
+                                                <p class="sentoSpecItem_number"><span>メイン浴槽の温度:<strong>{{ $sentos->men_temperature }}</strong>度</span></p>
                                                 <p class="sentoSpecItem_number"><span>飲泉:<strong>
-                                                @if($sento->drink_spring_yes === 1)
+                                                @if($sentos->drink_spring_yes === 1)
                                                 有り
                                                 @else
                                                 無し
@@ -479,7 +479,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_notavailable_bold.svg" alt="">
-                                                        @if($sento->undressing_space === 1)
+                                                        @if($sentos->undressing_space === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -493,7 +493,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_notavailable_bold.svg" alt="">
-                                                        @if($sento->face_wash_stand === 1)
+                                                        @if($sentos->face_wash_stand === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -507,7 +507,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_notavailable_bold.svg" alt="">
-                                                        @if($sento->body_wash_space === 1)
+                                                        @if($sentos->body_wash_space === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -521,7 +521,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_notavailable_bold.svg" alt="">
-                                                        @if($sento->shower_area === 1)
+                                                        @if($sentos->shower_area === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -535,7 +535,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_notavailable_bold.svg" alt="">
-                                                        @if($sento->jet_bath === 1)
+                                                        @if($sentos->jet_bath === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -549,7 +549,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_notavailable_bold.svg" alt="">
-                                                        @if($sento->carbonate_bath === 1)
+                                                        @if($sentos->carbonate_bath === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -563,7 +563,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_available_bold.svg" alt="">
-                                                        @if($sento->sleeping_bath === 1)
+                                                        @if($sentos->sleeping_bath === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -577,7 +577,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_available_bold.svg" alt="">
-                                                        @if($sento->utase_hot_water === 1)
+                                                        @if($sentos->utase_hot_water === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -591,7 +591,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_available_bold.svg" alt="">
-                                                        @if($sento->dry_sauna === 1)
+                                                        @if($sentos->dry_sauna === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -605,7 +605,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_available_bold.svg" alt="">
-                                                        @if($sento->mist_sauna === 1)
+                                                        @if($sentos->mist_sauna === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -619,7 +619,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_available_bold.svg" alt="">
-                                                        @if($sento->steam_sauna === 1)
+                                                        @if($sentos->steam_sauna === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -633,7 +633,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_available_bold.svg" alt="">
-                                                        @if($sento->salt_sauna === 1)
+                                                        @if($sentos->salt_sauna === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -647,7 +647,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_available_bold.svg" alt="">
-                                                        @if($sento->water_bath === 1)
+                                                        @if($sentos->water_bath === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -661,7 +661,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_available_bold.svg" alt="">
-                                                        @if($sento->medicine_bath === 1)
+                                                        @if($sentos->medicine_bath === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -675,7 +675,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_available_bold.svg" alt="">
-                                                        @if($sento->electric_bath === 1)
+                                                        @if($sentos->electric_bath === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -689,7 +689,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_available_bold.svg" alt="">
-                                                        @if($sento->tv_in_the_bath === 1)
+                                                        @if($sentos->tv_in_the_bath === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -703,7 +703,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_available_bold.svg" alt="">
-                                                        @if($sento->open_air_bath === 1)
+                                                        @if($sentos->open_air_bath === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -717,7 +717,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_available_bold.svg" alt="">
-                                                        @if($sento->relax_space === 1)
+                                                        @if($sentos->relax_space === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -731,7 +731,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_available_bold.svg" alt="">
-                                                        @if($sento->bedrock_bath === 1)
+                                                        @if($sentos->bedrock_bath === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -745,7 +745,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_available_bold.svg" alt="">
-                                                        @if($sento->powder_room === 1)
+                                                        @if($sentos->powder_room === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -759,7 +759,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_available_bold.svg" alt="">
-                                                        @if($sento->akasuri === 1)
+                                                        @if($sentos->akasuri === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -773,7 +773,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_available_bold.svg" alt="">
-                                                        @if($sento->family_bath === 1)
+                                                        @if($sentos->family_bath === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -787,7 +787,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_available_bold.svg" alt="">
-                                                        @if($sento->private_bath === 1)
+                                                        @if($sentos->private_bath === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -808,33 +808,33 @@
                                         <div class="sentoSpec_bathroom">
                                             <div class="sentoSpecItem">
                                                 <p class="sentoSpecItem_title_woman">女湯</p>
-                                                <p class="sentoSpecItem_people"><span>収容人数:<strong>{{ $sento->woman_capacity }}</strong>人</span></p>
+                                                <p class="sentoSpecItem_people"><span>収容人数:<strong>{{ $sentos->woman_capacity }}</strong>人</span></p>
                                                 <p class="sentoSpecItem_number"><span>泉質:<strong>
-                                                    @if($sento->spring_quality === '01')
+                                                    @if($sentos->spring_quality === '01')
                                                     特に無し
-                                                    @elseif($sento->spring_quality === '02')
+                                                    @elseif($sentos->spring_quality === '02')
                                                     単純温泉
-                                                    @elseif($sento->spring_quality === '03')
+                                                    @elseif($sentos->spring_quality === '03')
                                                     二酸化炭素泉
-                                                    @elseif($sento->spring_quality === '04')
+                                                    @elseif($sentos->spring_quality === '04')
                                                     炭酸水素塩泉
-                                                    @elseif($sento->spring_quality === '05')
+                                                    @elseif($sentos->spring_quality === '05')
                                                     塩化物泉
-                                                    @elseif($sento->spring_quality === '06')
+                                                    @elseif($sentos->spring_quality === '06')
                                                     硫酸塩泉
-                                                    @elseif($sento->spring_quality === '07')
+                                                    @elseif($sentos->spring_quality === '07')
                                                     含鉄泉
-                                                    @elseif($sento->spring_quality === '08')
+                                                    @elseif($sentos->spring_quality === '08')
                                                     硫黄泉
-                                                    @elseif($sento->spring_quality === '09')
+                                                    @elseif($sentos->spring_quality === '09')
                                                     酸性泉
-                                                    @elseif($sento->spring_quality === '10')
+                                                    @elseif($sentos->spring_quality === '10')
                                                     放射能泉
                                                     @endif
                                                 </strong></span></p>
-                                                <p class="sentoSpecItem_number"><span>メイン浴槽の温度:<strong>{{ $sento->woman_temperature }}</strong>度</span></p>
+                                                <p class="sentoSpecItem_number"><span>メイン浴槽の温度:<strong>{{ $sentos->woman_temperature }}</strong>度</span></p>
                                                 <p class="sentoSpecItem_number"><span>飲泉:<strong>
-                                                    @if($sento->drink_spring_yes === 1)
+                                                    @if($sentos->drink_spring_yes === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -853,7 +853,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_notavailable_bold.svg" alt="">
-                                                        @if($sento->undressing_space === 1)
+                                                        @if($sentos->undressing_space === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -867,7 +867,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_notavailable_bold.svg" alt="">
-                                                        @if($sento->face_wash_stand === 1)
+                                                        @if($sentos->face_wash_stand === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -881,7 +881,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_notavailable_bold.svg" alt="">
-                                                        @if($sento->body_wash_space === 1)
+                                                        @if($sentos->body_wash_space === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -895,7 +895,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_notavailable_bold.svg" alt="">
-                                                        @if($sento->shower_area === 1)
+                                                        @if($sentos->shower_area === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -909,7 +909,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_notavailable_bold.svg" alt="">
-                                                        @if($sento->jet_bath === 1)
+                                                        @if($sentos->jet_bath === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -923,7 +923,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_notavailable_bold.svg" alt="">
-                                                        @if($sento->carbonate_bath === 1)
+                                                        @if($sentos->carbonate_bath === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -937,7 +937,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_available_bold.svg" alt="">
-                                                        @if($sento->sleeping_bath === 1)
+                                                        @if($sentos->sleeping_bath === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -951,7 +951,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_available_bold.svg" alt="">
-                                                        @if($sento->utase_hot_water === 1)
+                                                        @if($sentos->utase_hot_water === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -965,7 +965,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_available_bold.svg" alt="">
-                                                        @if($sento->dry_sauna === 1)
+                                                        @if($sentos->dry_sauna === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -979,7 +979,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_available_bold.svg" alt="">
-                                                        @if($sento->mist_sauna === 1)
+                                                        @if($sentos->mist_sauna === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -993,7 +993,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_available_bold.svg" alt="">
-                                                        @if($sento->steam_sauna === 1)
+                                                        @if($sentos->steam_sauna === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -1007,7 +1007,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_available_bold.svg" alt="">
-                                                        @if($sento->salt_sauna === 1)
+                                                        @if($sentos->salt_sauna === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -1021,7 +1021,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_available_bold.svg" alt="">
-                                                        @if($sento->water_bath === 1)
+                                                        @if($sentos->water_bath === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -1035,7 +1035,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_available_bold.svg" alt="">
-                                                        @if($sento->medicine_bath === 1)
+                                                        @if($sentos->medicine_bath === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -1049,7 +1049,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_available_bold.svg" alt="">
-                                                        @if($sento->electric_bath === 1)
+                                                        @if($sentos->electric_bath === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -1063,7 +1063,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_available_bold.svg" alt="">
-                                                        @if($sento->tv_in_the_bath === 1)
+                                                        @if($sentos->tv_in_the_bath === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -1077,7 +1077,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_available_bold.svg" alt="">
-                                                        @if($sento->open_air_bath === 1)
+                                                        @if($sentos->open_air_bath === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -1091,7 +1091,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_available_bold.svg" alt="">
-                                                        @if($sento->relax_space === 1)
+                                                        @if($sentos->relax_space === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -1105,7 +1105,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_available_bold.svg" alt="">
-                                                        @if($sento->bedrock_bath === 1)
+                                                        @if($sentos->bedrock_bath === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -1119,7 +1119,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_available_bold.svg" alt="">
-                                                        @if($sento->powder_room === 1)
+                                                        @if($sentos->powder_room === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -1133,7 +1133,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_available_bold.svg" alt="">
-                                                        @if($sento->akasuri === 1)
+                                                        @if($sentos->akasuri === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -1147,7 +1147,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_available_bold.svg" alt="">
-                                                        @if($sento->family_bath === 1)
+                                                        @if($sentos->family_bath === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -1161,7 +1161,7 @@
                                                 </th>
                                                 <td class="sentoSpecTable_mark">
                                                     <div><img src="/assets/img/global/icon_available_bold.svg" alt="">
-                                                        @if($sento->private_bath === 1)
+                                                        @if($sentos->private_bath === 1)
                                                         有り
                                                         @else
                                                         無し
@@ -1190,7 +1190,7 @@
                             <li class="sentoSpecList_list">
                                 <span class="sentoSpecList_key">休憩所(広間タイプ)</span>
                                 <span class="sentoSpecList_value">
-                                    @if($sento->relax_space_wide === 1)
+                                    @if($sentos->relax_space_wide === 1)
                                     ◯
                                     @else
                                     -
@@ -1200,7 +1200,7 @@
                             <li class="sentoSpecList_list">
                                 <span class="sentoSpecList_key">休憩所(個室タイプ)</span>
                                 <span class="sentoSpecList_value">
-                                    @if($sento->relax_space_small === 1)
+                                    @if($sentos->relax_space_small === 1)
                                     ◯
                                     @else
                                     -
@@ -1210,7 +1210,7 @@
                             <li class="sentoSpecList_list">
                                 <span class="sentoSpecList_key">仮眠コーナー</span>
                                 <span class="sentoSpecList_value">
-                                    @if($sento->sleeping_space === 1)
+                                    @if($sentos->sleeping_space === 1)
                                     ◯
                                     @else
                                     -
@@ -1220,7 +1220,7 @@
                             <li class="sentoSpecList_list">
                                 <span class="sentoSpecList_key">無料Wi-Fi</span>
                                 <span class="sentoSpecList_value">
-                                    @if($sento->free_wifi === 1)
+                                    @if($sentos->free_wifi === 1)
                                     ◯
                                     @else
                                     -
@@ -1230,7 +1230,7 @@
                             <li class="sentoSpecList_list">
                                 <span class="sentoSpecList_key">無料電源</span>
                                 <span class="sentoSpecList_value">
-                                    @if($sento->electric_source === 1)
+                                    @if($sentos->electric_source === 1)
                                     ◯
                                     @else
                                     -
@@ -1240,7 +1240,7 @@
                             <li class="sentoSpecList_list">
                                 <span class="sentoSpecList_key">漫画閲覧スペース</span>
                                 <span class="sentoSpecList_value">
-                                    @if($sento->manga_space === 1)
+                                    @if($sentos->manga_space === 1)
                                     ◯
                                     @else
                                     -
@@ -1250,7 +1250,7 @@
                             <li class="sentoSpecList_list">
                                 <span class="sentoSpecList_key">作業スペース</span>
                                 <span class="sentoSpecList_value">
-                                    @if($sento->working_space === 1)
+                                    @if($sentos->working_space === 1)
                                     ◯
                                     @else
                                     -
@@ -1260,7 +1260,7 @@
                             <li class="sentoSpecList_list">
                                 <span class="sentoSpecList_key">レストラン</span>
                                 <span class="sentoSpecList_value">
-                                    @if($sento->food_space === 1)
+                                    @if($sentos->food_space === 1)
                                     ◯
                                     @else
                                     -
@@ -1270,7 +1270,7 @@
                             <li class="sentoSpecList_list">
                                 <span class="sentoSpecList_key">ボディケアエステ</span>
                                 <span class="sentoSpecList_value">
-                                    @if($sento->body_massage_service === 1)
+                                    @if($sentos->body_massage_service === 1)
                                     ◯
                                     @else
                                     -
@@ -1280,7 +1280,7 @@
                             <li class="sentoSpecList_list">
                                 <span class="sentoSpecList_key">マッサージチェア</span>
                                 <span class="sentoSpecList_value">
-                                    @if($sento->massage_chair === 1)
+                                    @if($sentos->massage_chair === 1)
                                     ◯
                                     @else
                                     -
@@ -1290,7 +1290,7 @@
                             <li class="sentoSpecList_list">
                                 <span class="sentoSpecList_key">売店</span>
                                 <span class="sentoSpecList_value">
-                                    @if($sento->shopping_area === 1)
+                                    @if($sentos->shopping_area === 1)
                                     ◯
                                     @else
                                     -
@@ -1300,7 +1300,7 @@
                             <li class="sentoSpecList_list">
                                 <span class="sentoSpecList_key">ゲームコーナー</span>
                                 <span class="sentoSpecList_value">
-                                    @if($sento->game_corner === 1)
+                                    @if($sentos->game_corner === 1)
                                     ◯
                                     @else
                                     -
@@ -1310,7 +1310,7 @@
                             <li class="sentoSpecList_list">
                                 <span class="sentoSpecList_key">喫煙ルーム</span>
                                 <span class="sentoSpecList_value">
-                                    @if($sento->smoking_area === 1)
+                                    @if($sentos->smoking_area === 1)
                                     ◯
                                     @else
                                     -
@@ -1320,7 +1320,7 @@
                             <li class="sentoSpecList_list">
                                 <span class="sentoSpecList_key">美容室</span>
                                 <span class="sentoSpecList_value">
-                                    @if($sento->beauty_salon === 1)
+                                    @if($sentos->beauty_salon === 1)
                                     ◯
                                     @else
                                     -
@@ -1330,7 +1330,7 @@
                             <li class="sentoSpecList_list">
                                 <span class="sentoSpecList_key">多目的トイレ</span>
                                 <span class="sentoSpecList_value">
-                                    @if($sento->multipurpose_toilet === 1)
+                                    @if($sentos->multipurpose_toilet === 1)
                                     ◯
                                     @else
                                     -
@@ -1340,7 +1340,7 @@
                             <li class="sentoSpecList_list">
                                 <span class="sentoSpecList_key">自動販売機</span>
                                 <span class="sentoSpecList_value">
-                                    @if($sento->vending_machine === 1)
+                                    @if($sentos->vending_machine === 1)
                                     ◯
                                     @else
                                     -
@@ -1350,7 +1350,7 @@
                             <li class="sentoSpecList_list">
                                 <span class="sentoSpecList_key">足湯</span>
                                 <span class="sentoSpecList_value">
-                                    @if($sento->foot_spring === 1)
+                                    @if($sentos->foot_spring === 1)
                                     ◯
                                     @else
                                     -
@@ -1367,7 +1367,7 @@
                             <li class="sentoSpecList_list">
                                 <span class="sentoSpecList_key">タトゥー</span>
                                 <span class="sentoSpecList_value">
-                                    @if($sento->allow_tattoo === 1)
+                                    @if($sentos->allow_tattoo === 1)
                                     ◯
                                     @else
                                     -
@@ -1377,7 +1377,7 @@
                             <li class="sentoSpecList_list">
                                 <span class="sentoSpecList_key">異性入浴(小学生)</span>
                                 <span class="sentoSpecList_value">
-                                    @if($sento->heterosexual_bathing === 1)
+                                    @if($sentos->heterosexual_bathing === 1)
                                     ◯
                                     @else
                                     -
@@ -1387,7 +1387,7 @@
                             <li class="sentoSpecList_list">
                                 <span class="sentoSpecList_key">水着の着用義務</span>
                                 <span class="sentoSpecList_value">
-                                    @if($sento->duty_swimsuit === 1)
+                                    @if($sentos->duty_swimsuit === 1)
                                     ◯
                                     @else
                                     -
@@ -1406,7 +1406,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">シャンプー</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->free_shampoo === 1)
+                                            @if($sentos->free_shampoo === 1)
                                             ◯
                                             @else
                                             -
@@ -1416,7 +1416,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">コンディショナー</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->free_conditioner === 1)
+                                            @if($sentos->free_conditioner === 1)
                                             ◯
                                             @else
                                             -
@@ -1426,7 +1426,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">ボディーソープ</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->free_bodysoap === 1)
+                                            @if($sentos->free_bodysoap === 1)
                                             ◯
                                             @else
                                             -
@@ -1436,7 +1436,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">洗顔ソープ</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->free_facesoap === 1)
+                                            @if($sentos->free_facesoap === 1)
                                             ◯
                                             @else
                                             -
@@ -1446,7 +1446,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">カミソリ</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->free_razor === 1)
+                                            @if($sentos->free_razor === 1)
                                             ◯
                                             @else
                                             -
@@ -1456,7 +1456,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">シェーバー</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->free_shaver === 1)
+                                            @if($sentos->free_shaver === 1)
                                             ◯
                                             @else
                                             -
@@ -1466,7 +1466,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">シェービングクリーム</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->free_shaving_creamt === 1)
+                                            @if($sentos->free_shaving_creamt === 1)
                                             ◯
                                             @else
                                             -
@@ -1476,7 +1476,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">歯ブラシ</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->free_toothbrush === 1)
+                                            @if($sentos->free_toothbrush === 1)
                                             ◯
                                             @else
                                             -
@@ -1486,7 +1486,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">バスタオル</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->free_bathtowel === 1)
+                                            @if($sentos->free_bathtowel === 1)
                                             ◯
                                             @else
                                             -
@@ -1496,7 +1496,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">ハンドタオル</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->free_handtowel === 1)
+                                            @if($sentos->free_handtowel === 1)
                                             ◯
                                             @else
                                             -
@@ -1506,7 +1506,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">ドライヤー</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->free_dryer === 1)
+                                            @if($sentos->free_dryer === 1)
                                             ◯
                                             @else
                                             -
@@ -1516,7 +1516,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">サウナセット</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->free_sauna_set === 1)
+                                            @if($sentos->free_sauna_set === 1)
                                             ◯
                                             @else
                                             -
@@ -1526,7 +1526,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">化粧水</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->free_toner === 1)
+                                            @if($sentos->free_toner === 1)
                                             ◯
                                             @else
                                             -
@@ -1536,7 +1536,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">乳液</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->free_milky_lotion === 1)
+                                            @if($sentos->free_milky_lotion === 1)
                                             ◯
                                             @else
                                             -
@@ -1546,7 +1546,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">メイク落とし</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->free_makeup_remover === 1)
+                                            @if($sentos->free_makeup_remover === 1)
                                             ◯
                                             @else
                                             -
@@ -1556,7 +1556,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">綿棒</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->free_cotton_swab === 1)
+                                            @if($sentos->free_cotton_swab === 1)
                                             ◯
                                             @else
                                             -
@@ -1566,7 +1566,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">トニック</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->free_tonic === 1)
+                                            @if($sentos->free_tonic === 1)
                                             ◯
                                             @else
                                             -
@@ -1576,7 +1576,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">ローション</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->free_lotion === 1)
+                                            @if($sentos->free_lotion === 1)
                                             ◯
                                             @else
                                             -
@@ -1586,7 +1586,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">石鹸</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->free_nomal_soap === 1)
+                                            @if($sentos->free_nomal_soap === 1)
                                             ◯
                                             @else
                                             -
@@ -1605,7 +1605,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">シャンプー</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->paid_shampoo === 1)
+                                            @if($sentos->paid_shampoo === 1)
                                             ◯
                                             @else
                                             -
@@ -1615,7 +1615,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">コンディショナー</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->paid_conditioner === 1)
+                                            @if($sentos->paid_conditioner === 1)
                                             ◯
                                             @else
                                             -
@@ -1625,7 +1625,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">ボディーソープ</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->paid_bodysoap === 1)
+                                            @if($sentos->paid_bodysoap === 1)
                                             ◯
                                             @else
                                             -
@@ -1635,7 +1635,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">洗顔ソープ</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->paid_facesoap === 1)
+                                            @if($sentos->paid_facesoap === 1)
                                             ◯
                                             @else
                                             -
@@ -1645,7 +1645,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">カミソリ</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->paid_razor === 1)
+                                            @if($sentos->paid_razor === 1)
                                             ◯
                                             @else
                                             -
@@ -1655,7 +1655,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">シェーバー</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->paid_shaver === 1)
+                                            @if($sentos->paid_shaver === 1)
                                             ◯
                                             @else
                                             -
@@ -1665,7 +1665,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">シェービングクリーム</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->paid_shaving_cream === 1)
+                                            @if($sentos->paid_shaving_cream === 1)
                                             ◯
                                             @else
                                             -
@@ -1675,7 +1675,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">歯ブラシ</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->paid_toothbrush === 1)
+                                            @if($sentos->paid_toothbrush === 1)
                                             ◯
                                             @else
                                             -
@@ -1685,7 +1685,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">バスタオル</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->paid_bathtowel === 1)
+                                            @if($sentos->paid_bathtowel === 1)
                                             ◯
                                             @else
                                             -
@@ -1695,7 +1695,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">ハンドタオル</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->paid_handtowel === 1)
+                                            @if($sentos->paid_handtowel === 1)
                                             ◯
                                             @else
                                             -
@@ -1705,7 +1705,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">ドライヤー</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->paid_dryer === 1)
+                                            @if($sentos->paid_dryer === 1)
                                             ◯
                                             @else
                                             -
@@ -1715,7 +1715,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">サウナセット</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->paid_sauna_set === 1)
+                                            @if($sentos->paid_sauna_set === 1)
                                             ◯
                                             @else
                                             -
@@ -1725,7 +1725,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">化粧水</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->paid_toner === 1)
+                                            @if($sentos->paid_toner === 1)
                                             ◯
                                             @else
                                             -
@@ -1735,7 +1735,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">乳液</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->paid_milky_lotion === 1)
+                                            @if($sentos->paid_milky_lotion === 1)
                                             ◯
                                             @else
                                             -
@@ -1745,7 +1745,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">メイク落とし</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->paid_makeup_remover === 1)
+                                            @if($sentos->paid_makeup_remover === 1)
                                             ◯
                                             @else
                                             -
@@ -1755,7 +1755,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">綿棒</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->paid_cotton_swab === 1)
+                                            @if($sentos->paid_cotton_swab === 1)
                                             ◯
                                             @else
                                             -
@@ -1765,7 +1765,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">トニック</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->paid_tonic === 1)
+                                            @if($sentos->paid_tonic === 1)
                                             ◯
                                             @else
                                             -
@@ -1775,7 +1775,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">ローション</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->paid_lotion === 1)
+                                            @if($sentos->paid_lotion === 1)
                                             ◯
                                             @else
                                             -
@@ -1785,7 +1785,7 @@
                                     <li class="sentoSpecList_list">
                                         <span class="sentoSpecList_key">石鹸</span>
                                         <span class="sentoSpecList_value">
-                                            @if($sento->paid_nomal_soap === 1)
+                                            @if($sentos->paid_nomal_soap === 1)
                                             ◯
                                             @else
                                             -
@@ -1798,14 +1798,14 @@
                                     <h3 class="headline"><img src="{{ asset('../img/squere.png') }}" alt=""
                                             width="20" height="20" class="squere"><span
                                             class="headline_string_sub">施設補足情報</span></h3>
-                                    <p class="sentoSpecDetail_note">{{ $sento->supplement }}</p>
+                                    <p class="sentoSpecDetail_note">{{ $sentos->supplement }}</p>
                                 </div>
 
                                 <div class="sentoSpecDetailItem">
                                     <h3 class="headline"><img src="{{ asset('../img/squere.png') }}" alt=""
                                             width="20" height="20" class="squere"><span
                                             class="headline_string_sub">休業・時間短縮などの営業情報</span></h3>
-                                    <p class="sentoSpecDetail_note">{{ $sento->closed_info }}</p>
+                                    <p class="sentoSpecDetail_note">{{ $sentos->closed_info }}</p>
 
                                 </div>
 
@@ -1846,28 +1846,28 @@
                                         <tr>
                                             <th class="c-table_th">施設名</th>
                                             <td class="c-table_td">
-                                                {{ $sento->name }}
+                                                {{ $sentos->name }}
                                             </td>
                                         </tr>
 
                                         <tr>
                                             <th class="c-table_th">施設タイプ</th>
                                             <td class="c-table_td">
-                                                @if($sento->type_code === '01')
+                                                @if($sentos->type_code === '01')
                                                     温浴施設（スーパー銭湯)
-                                                    @elseif($sento->type_code === '02')
+                                                    @elseif($sentos->type_code === '02')
                                                     銭湯（公衆浴場）
-                                                    @elseif($sento->type_code === '03')
+                                                    @elseif($sentos->type_code === '03')
                                                     ホテル・旅館
-                                                    @elseif($sento->type_code === '04')
+                                                    @elseif($sentos->type_code === '04')
                                                     ゴルフ場
-                                                    @elseif($sento->type_code === '05')
+                                                    @elseif($sentos->type_code === '05')
                                                     スポーツジム
-                                                    @elseif($sento->type_code === '06')
+                                                    @elseif($sentos->type_code === '06')
                                                     キャンプ場
-                                                    @elseif($sento->type_code === '07')
+                                                    @elseif($sentos->type_code === '07')
                                                     ラブホテル
-                                                    @elseif($sento->type_code === '08')
+                                                    @elseif($sentos->type_code === '08')
                                                     その他
                                                     @endif
                                             </td>
@@ -1876,78 +1876,78 @@
                                         <tr>
                                             <th class="c-table_th">郵便番号</th>
                                             <td class="c-table_td">
-                                                {{ $sento->postal_code }}
+                                                {{ $sentos->postal_code }}
                                             </td>
                                         </tr>
 
                                         <tr>
                                             <th class="c-table_th">住所</th>
                                             <td class="c-table_td">
-                                                {{ $sento->address1 }}{{ $sento->address2 }}{{ $sento->address3 }}
+                                                {{ $sentos->address1 }}{{ $sentos->address2 }}{{ $sentos->address3 }}
                                             </td>
                                         </tr>
 
                                         <tr>
                                             <th class="c-table_th">アクセス</th>
                                             <td class="c-table_td">
-                                                {{ $sento->access }}
+                                                {{ $sentos->access }}
                                             </td>
                                         </tr>
 
                                         <tr>
                                             <th class="c-table_th">駐車場情報</th>
                                             <td class="c-table_td">
-                                                {{ $sento->parking_info }}
+                                                {{ $sentos->parking_info }}
                                             </td>
                                         </tr>
 
                                         <tr>
                                             <th class="c-table_th">TEL</th>
                                             <td class="c-table_td">
-                                                {{ $sento->telephone }}
+                                                {{ $sentos->telephone }}
                                             </td>
                                         </tr>
 
                                         <tr>
                                             <th class="c-table_th">施設のHP</th>
                                             <td class="c-table_td">
-                                                <a href="{{ $sento->web_home_page }}"
-                                                    target="_blank">{{ $sento->web_home_page }}</a>
+                                                <a href="{{ $sentos->web_home_page }}"
+                                                    target="_blank">{{ $sentos->web_home_page }}</a>
                                             </td>
                                         </tr>
 
                                         <tr>
                                             <th class="c-table_th">定休日</th>
                                             <td class="c-table_td">
-                                                {{ $sento->regular_holiday }}
+                                                {{ $sentos->regular_holiday }}
                                             </td>
                                         </tr>
 
                                         <tr>
                                             <th class="c-table_th">営業時間</th>
                                             <td class="c-table_td">
-                                                {{ $sento->business_hours }}
+                                                {{ $sentos->business_hours }}
                                             </td>
                                         </tr>
 
                                         <tr>
                                             <th class="c-table_th">利用料金(大人)</th>
                                             <td class="c-table_td">
-                                                {{ $sento->adult_fee }}円
+                                                {{ $sentos->adult_fee }}円
                                             </td>
                                         </tr>
 
                                         <tr>
                                             <th class="c-table_th">利用料金(子供)</th>
                                             <td class="c-table_td">
-                                                {{ $sento->child_fee }}円
+                                                {{ $sentos->child_fee }}円
                                             </td>
                                         </tr>
 
                                         <tr>
                                             <th class="c-table_th">クレジットカード<br>決済</th>
                                             <td class="c-table_td">
-                                                @if($sento->credit_card_use_yes === 1)
+                                                @if($sentos->credit_card_use_yes === 1)
                                                 有り
                                                 @else
                                                 無し
@@ -1958,7 +1958,7 @@
                                         <tr>
                                             <th class="c-table_th">ペイペイ決済</th>
                                             <td class="c-table_td">
-                                                @if($sento->paypay_use_yes === 1)
+                                                @if($sentos->paypay_use_yes === 1)
                                                 有り
                                                 @else
                                                 無し
@@ -1969,7 +1969,7 @@
                                         <tr>
                                             <th class="c-table_th">24時間営業</th>
                                             <td class="c-table_td">
-                                                @if($sento->open_all_night_yes === 1)
+                                                @if($sentos->open_all_night_yes === 1)
                                                 有り
                                                 @else
                                                 無し
@@ -1980,7 +1980,7 @@
                                         <tr>
                                             <th class="c-table_th">宿泊施設</th>
                                             <td class="c-table_td">
-                                                @if($sento->stay_yes === 1)
+                                                @if($sentos->stay_yes === 1)
                                                 有り
                                                 @else
                                                 無し
