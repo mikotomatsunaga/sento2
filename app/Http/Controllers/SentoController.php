@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Sento;
+use Illuminate\Pagination\Paginator;
 
 class SentoController extends Controller
 {
@@ -14,11 +15,13 @@ class SentoController extends Controller
      */
     public function index()
     {
-        $sento = Sento::latest()->get();
-        // dd($sento);
 
-        return view('search')
-            ->with(['sento' => $sento]);
+        $sentos = Sento::simplePaginate(1);
+        // dd($sentos);
+
+        return view('search',compact('sentos'));
+
+
     }
 
     /**
@@ -310,6 +313,7 @@ class SentoController extends Controller
 
 
         // ]);
+
 
         $sento = new Sento();
 

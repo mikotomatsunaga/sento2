@@ -265,7 +265,7 @@
                                         <strong>訪問施設名</strong>
                                         <div>
                                             <div class="modal_form_visit_name">
-                                                <input id="visit_name" name="visit_name" type="text" value="">
+                                                <input class="visit_name" id="visit_name" name="visit_name" type="text" value="">
                                             </div>
                                         </div>
                                     </div>
@@ -281,7 +281,7 @@
                                         <strong>セ活コメント</strong>
                                         <div>
                                             <div class="modal_form_sekatsu_comment">
-                                                <input id="sekatsu_comment" name="sekatsu_comment" type="textara" cols="150"
+                                                <input class="sekatsu_comment" id="sekatsu_comment" name="sekatsu_comment" type="textara" cols="150"
                                                     rows="50">
                                             </div>
                                         </div>

@@ -255,7 +255,7 @@
         <p class="headline_lead">みんなで作る銭湯データベース。情報は誰でも登録することができます。</p>
     </div>
     <div class="topSentou_wrap">
-        {{-- @forelse ($sento as $sento) --}}
+        @forelse ($sento as $sento)
         <div class="topSentou_box">
             <a href="{{ route('sentos') }}">
                 <!-- 新着銭湯(1)-->
@@ -265,8 +265,104 @@
                     <a href="https://sauna-ikitai.com/saunas/11064"></a>
                 </div>
                 <div class="topSentou_info">
-                    <h3 class="topSentou_title">Smart Stay SHIZUKU 品川大井町</h3>
-                    <address class="sentou_Item_address">東京都&nbsp;品川区&nbsp;東大井5-2-8&nbsp;</address>
+                    <h3 class="topSentou_title">{{ $sento->name }}</h3>
+                    <address class="sentou_Item_address">
+                        @if($sento->prefecture_code === '01')
+                            北海道
+                            @elseif($sento->prefecture_code === '02')
+                            青森県
+                            @elseif($sento->prefecture_code === '03')
+                            岩手県
+                            @elseif($sento->prefecture_code === '04')
+                            宮城県
+                            @elseif($sento->prefecture_code === '05')
+                            秋田県
+                            @elseif($sento->prefecture_code === '06')
+                            山形県
+                            @elseif($sento->prefecture_code === '07')
+                            福島県
+                            @elseif($sento->prefecture_code === '08')
+                            茨城県
+                            @elseif($sento->prefecture_code === '09')
+                            栃木県
+                            @elseif($sento->prefecture_code === '10')
+                            群馬県
+                            @elseif($sento->prefecture_code === '11')
+                            埼玉県
+                            @elseif($sento->prefecture_code === '12')
+                            千葉県
+                            @elseif($sento->prefecture_code === '13')
+                            東京都
+                            @elseif($sento->prefecture_code === '14')
+                            神奈川県
+                            @elseif($sento->prefecture_code === '15')
+                            新潟県
+                            @elseif($sento->prefecture_code === '16')
+                            富山県
+                            @elseif($sento->prefecture_code === '17')
+                            石川県
+                            @elseif($sento->prefecture_code === '18')
+                            福井県
+                            @elseif($sento->prefecture_code === '19')
+                            山梨県
+                            @elseif($sento->prefecture_code === '20')
+                            長野県
+                            @elseif($sento->prefecture_code === '21')
+                            岐阜県
+                            @elseif($sento->prefecture_code === '22')
+                            静岡県
+                            @elseif($sento->prefecture_code === '23')
+                            愛知県
+                            @elseif($sento->prefecture_code === '24')
+                            三重県
+                            @elseif($sento->prefecture_code === '25')
+                            滋賀県
+                            @elseif($sento->prefecture_code === '26')
+                            京都府
+                            @elseif($sento->prefecture_code === '27')
+                            大阪府
+                            @elseif($sento->prefecture_code === '28')
+                            兵庫県
+                            @elseif($sento->prefecture_code === '29')
+                            奈良県
+                            @elseif($sento->prefecture_code === '30')
+                            和歌山県
+                            @elseif($sento->prefecture_code === '31')
+                            鳥取県
+                            @elseif($sento->prefecture_code === '32')
+                            島根県
+                            @elseif($sento->prefecture_code === '33')
+                            岡山県
+                            @elseif($sento->prefecture_code === '34')
+                            広島県
+                            @elseif($sento->prefecture_code === '35')
+                            山口県
+                            @elseif($sento->prefecture_code === '36')
+                            徳島県
+                            @elseif($sento->prefecture_code === '37')
+                            香川県
+                            @elseif($sento->prefecture_code === '38')
+                            愛媛県
+                            @elseif($sento->prefecture_code === '39')
+                            高知県
+                            @elseif($sento->prefecture_code === '40')
+                            福岡県
+                            @elseif($sento->prefecture_code === '41')
+                            佐賀県
+                            @elseif($sento->prefecture_code === '42')
+                            長崎県
+                            @elseif($sento->prefecture_code === '43')
+                            熊本県
+                            @elseif($sento->prefecture_code === '44')
+                            大分県
+                            @elseif($sento->prefecture_code === '45')
+                            宮崎県
+                            @elseif($sento->prefecture_code === '46')
+                            鹿児島県
+                            @elseif($sento->prefecture_code === '47')
+                            沖縄県
+                        @endif
+                        &nbsp;{{ $sento->address1 }}&nbsp;{{ $sento->address2 }}&nbsp;{{ $sento->address3 }}</address>
                     <div class="sex">
                         <div class="man">
                             <ul class="Top_sento_datail">
@@ -274,25 +370,43 @@
                                 <li>
                                     <span class="p-saunaItemSpec_icon"><img src="/assets/img/global/circle_sauna.svg"
                                             alt="温"></span>
-                                    <span class="p-saunaItemSpec_value">45℃</span>
+                                    <span class="p-saunaItemSpec_value">{{ $sento->men_temperature }}℃</span>
                                 </li>
                                 <li>
                                     <span class="p-saunaItemSpec_icon"><img
                                             src="/assets/img/global/circle_mizuburo.svg" alt="水"></span>
                                     <span class="p-saunaItemSpec_value"><img
-                                            src="/assets/img/global/icon_notavailable.svg" alt="有"></span></span>
+                                            src="/assets/img/global/icon_notavailable.svg" alt=""><span>
+                                    @if($sento->water_bath === 1)
+                                            有
+                                            @else
+                                            無
+                                            @endif
+                                    </span>
                                 </li>
                                 <li>
                                     <span class="p-saunaItemSpec_icon"><img
                                             src="/assets/img/global/circle_gaikiyoku.svg" alt="露"></span>
                                     <span class="p-saunaItemSpec_value"><img
-                                            src="/assets/img/global/icon_notavailable.svg" alt="有"></span>
+                                            src="/assets/img/global/icon_notavailable.svg" alt=""><span>
+                                    @if($sento->open_air_bath === 1)
+                                            有
+                                            @else
+                                            無
+                                            @endif
+                                    </span>
                                 </li>
                                 <li>
                                     <span class="p-saunaItemSpec_icon"><img src="/assets/img/global/circle_loyly.svg"
                                             alt="サ"></span>
                                     <span class="p-saunaItemSpec_value"><img
-                                            src="/assets/img/global/icon_notavailable.svg" alt="無"></span>
+                                            src="/assets/img/global/icon_notavailable.svg" alt=""><span>
+                                    @if($sento->dry_sauna === 1)
+                                            有
+                                            @else
+                                            無
+                                            @endif
+                                    </span>
                                 </li>
                             </ul>
                         </div>
@@ -302,33 +416,51 @@
                                 <li>
                                     <span class="p-saunaItemSpec_icon"><img src="/assets/img/global/circle_sauna.svg"
                                             alt="温"></span>
-                                    <span class="p-saunaItemSpec_value">45℃</span>
+                                    <span class="p-saunaItemSpec_value">{{ $sento->woman_temperature }}℃</span>
                                 </li>
                                 <li>
                                     <span class="p-saunaItemSpec_icon"><img
                                             src="/assets/img/global/circle_mizuburo.svg" alt="水"></span>
                                     <span class="p-saunaItemSpec_value"><img
-                                            src="/assets/img/global/icon_notavailable.svg" alt="有"></span></span>
+                                            src="/assets/img/global/icon_notavailable.svg" alt=""></span><span>
+                                        @if($sento->water_bath === 1)
+                                        有
+                                        @else
+                                        無
+                                        @endif
+                                    </span>
                                 </li>
                                 <li>
                                     <span class="p-saunaItemSpec_icon"><img
                                             src="/assets/img/global/circle_gaikiyoku.svg" alt="露"></span>
                                     <span class="p-saunaItemSpec_value"><img
-                                            src="/assets/img/global/icon_notavailable.svg" alt="有"></span>
+                                            src="/assets/img/global/icon_notavailable.svg" alt=""></span><span>
+                                        @if($sento->open_air_bath === 1)
+                                        有
+                                        @else
+                                        無
+                                        @endif
+                                    </span>
                                 </li>
                                 <li>
                                     <span class="p-saunaItemSpec_icon"><img src="/assets/img/global/circle_loyly.svg"
                                             alt="サ"></span>
                                     <span class="p-saunaItemSpec_value"><img
-                                            src="/assets/img/global/icon_notavailable.svg" alt="無"></span>
+                                            src="/assets/img/global/icon_notavailable.svg" alt=""></span><span>
+                                        @if($sento->dry_sauna === 1)
+                                        有
+                                        @else
+                                        無
+                                        @endif
+                                    </span>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div>
                         <ul class="Top_sento_datail">
-                            <li>入浴料：800円〜</li>
-                            <li>定休日：年中無休</li>
+                            <li>入浴料：{{ $sento->adult_fee }}円〜</li>
+                            <li>定休日：{{ $sento->regular_holiday }}</li>
                         </ul>
                         <ul class="data_like_count">
                             <li>いいね！<span>483</span></li>
@@ -338,9 +470,9 @@
                 </div>
             </a>
         </div>
-        {{-- @empty
+        @empty
             <li>No sento yet!</li>
-        @endforelse --}}
+        @endforelse
     </div>
 </div>
 <div class="to_next_page_wrap">

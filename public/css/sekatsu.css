@@ -230,3 +230,9 @@ h3 {
 }
 
 /* セ活メイン */
+
+.pagenation {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}

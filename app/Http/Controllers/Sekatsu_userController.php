@@ -14,11 +14,11 @@ class Sekatsu_userController extends Controller
      */
     public function index()
     {
-        $sekatsu_user = Sekatsu_user::latest()->get();
-        // dd($sekatsu_user);
 
-        return view('sekatsu')
-            ->with(['sekatsu_user' => $sekatsu_user]);
+        $sekatsu_users = Sekatsu_user::simplePaginate(15);
+        // dd($sekatsu_users);
+
+        return view('sekatsu',compact('sekatsu_users'));
     }
 
     /**
@@ -39,7 +39,7 @@ class Sekatsu_userController extends Controller
      */
     public function store(Request $request)
     {
-        
+
 
         $request->validate([
             'visit_date' => 'required',

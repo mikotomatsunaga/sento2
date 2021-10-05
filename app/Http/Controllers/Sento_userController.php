@@ -9,14 +9,6 @@ use Illuminate\Support\Facades\Auth;
 
 class Sento_userController extends Controller
 {
-    // public function testindex()
-    // {
-    //     $user = User::first();
-    //     dd($user);
-
-    //     return view('dashboard')
-    //     ->with(['user' => $user]);
-    // }
 
     /**
      * Display a listing of the resource.
@@ -27,11 +19,11 @@ class Sento_userController extends Controller
 
     public function index()
     {
-        $sento_user = Sento_user::first();
+        // $sento_user = Sento_user::first();
         // dd($sento_user);
 
-        // $sento_user = User::all();
-        // dd($sento_user);
+        $sento_user = Sento_user::all();
+        dd($sento_user);
 
         return view('sento_users')
             ->with(['sento_user' => $sento_user]);

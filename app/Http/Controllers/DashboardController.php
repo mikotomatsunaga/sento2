@@ -13,22 +13,19 @@ class DashboardController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function Sekatsu_user()
+
+    public function index()
     {
-        $sekatsu_user = Sekatsu_user::latest()->get();
+        $sekatsu_user = Sekatsu_user::latest()->orderByDesc('id')->limit(5)->get();
         // dd($sekatsu_user);
 
-        return view('dashboard')
-        ->with(['sekatsu_user' => $sekatsu_user]);
-    }
-
-    public function Sento()
-    {
-        // $sento = Sento::latest()->get();
+        $sento = Sento::latest()->orderByDesc('id')->limit(5)->get();
         // dd($sento);
 
-        // return view('dashboard')
-        //     ->with(['sento' => $sento]);
+        return view('top')
+        ->with(['sekatsu_user' => $sekatsu_user])
+        ->with(['sento' => $sento]);
+
     }
 
     /**

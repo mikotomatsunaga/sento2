@@ -58,7 +58,7 @@
     <!-- セ活表示エリア -->
 
     <div class="sekatsu_main">
-        @forelse ($sekatsu_user as $sekatsu_user)
+        @forelse ($sekatsu_users as $sekatsu_user)
         <div class="sekatsu_box">
             <div class="sekatsu_prof">
                 <!-- セ活メイン(1) -->
@@ -108,6 +108,7 @@
         @empty
         <div>No sekatsu yet!</div>
         @endforelse
+        <div class="pagenation">{{ $sekatsu_users->onEachSide(3)->links() }}</div>
     </div>
 
     <!-- セ活 -->

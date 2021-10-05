@@ -133,11 +133,9 @@ Route::post('/sekatsu_users/store', [Sekatsu_userController::class, 'store'])
 Route::get('/', [TopController::class, 'index'])
     ->name('top');
 
-Route::get('/dashboard', [DashboardController::class, 'Sekatsu_user'])
+Route::get('/dashboard', [DashboardController::class, 'index'])
     ->name('dashboard');
 
-// Route::get('/dashboard', [DashboardController::class, 'Sento'])
-//     ->name('dashboard');
 
 
 

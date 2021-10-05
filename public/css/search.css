@@ -79,6 +79,7 @@ h3 {
 .topSentou {
     width: 1200px;
     margin: 0 auto;
+    margin-bottom: 2%;
 }
 
 
@@ -106,12 +107,14 @@ h3 {
     background: white;
     border-radius: 15px;
     margin-top: 2%;
+    /* border: black 1px solid; */
 }
 
 .topSentou_box {
     display: flex;
     width: 1100px;
     height: 250px;
+    /* border: black 1px solid; */
 }
 
 .topSentou_wrap_img {
@@ -145,7 +148,7 @@ h3 {
 
 .data_like_count {
     display: flex;
-    margin-top: 1%;
+    margin-top: 0.8%;
 }
 
 .data_like_count li {
@@ -153,4 +156,10 @@ h3 {
 }
 
 /* 施設一覧の表示 */
+
+.pagenation {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
 

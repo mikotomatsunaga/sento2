@@ -262,6 +262,11 @@
     border-radius: 5px;
     padding: 5px 5px 5px 5px;
 }
+.visit_name {
+    width: 480px;
+    /* border: solid 1px black; */
+}
+
 
 .modal_form_visit_date {
     /* margin-top: 2%; */
@@ -284,6 +289,13 @@
     padding: 5px 5px 5px 5px;
     border-radius: 5px;
 
+}
+.sekatsu_comment {
+    width: 640px;
+    height: 190px;
+    vertical-align:text-top;
+    white-space: pre-wrap;
+    border:solid 1px black;
 }
 .modal_form_men_temprature {
     width: 55px;
@@ -436,7 +448,7 @@
     width: 1000px;
     height: 350px;
     margin: 0 auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .sentoSpec_bathroom {
@@ -444,7 +456,7 @@
     height: 350px;
     margin: 0 auto;
     margin-top: 3%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 
@@ -488,7 +500,7 @@
     align-items: center; /* 縦方向中央揃え */
     -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
     justify-content: center; /* 横方向中央揃え */
-    margin-top: 2%;
+    margin-top: 4%;
 }
 
 .sentoSpecTable {

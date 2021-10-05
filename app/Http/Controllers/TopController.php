@@ -15,34 +15,36 @@ class TopController extends Controller
      */
     public function index()
     {
-        $sekatsu_user = Sekatsu_user::latest()->get();
-        // $sento = Sento::latest()->get();
+        $sekatsu_user = Sekatsu_user::latest()->orderByDesc('id')->limit(5)->get();
+        // dd($sekatsu_user);
+
+        $sento = Sento::latest()->orderByDesc('id')->limit(5)->get();
         // dd($sento);
 
         return view('top')
-        ->with(['sekatsu_user' => $sekatsu_user]);
-        // ->with(['sento' => $sento]);
+        ->with(['sekatsu_user' => $sekatsu_user])
+        ->with(['sento' => $sento]);
 
     }
 
 
-    // public function Sekatsu_user()
+    public function top_sekatsu_user()
+    {
+        $sekatsu_user = Sekatsu_user::latest()->get();
+        // dd($sekatsu_user);
+
+        return view('top')
+        ->with(['sekatsu_user' => $sekatsu_user]);
+    }
+
+    // public function top_sento()
     // {
-    //     $sekatsu_user = Sekatsu_user::latest()->get();
-    //     // dd($sekatsu_user);
+    //     $sento = Sento::latest(3)->get();
+    //     // dd($sento);
 
     //     return view('top')
-    //     ->with(['sekatsu_user' => $sekatsu_user]);
+    //         ->with(['sento' => $sento]);
     // }
-
-    public function Sento()
-    {
-        // $sento = Sento::latest(3)->get();
-        // dd($sento);
-
-        // return view('top')
-        //     ->with(['sento' => $sento]);
-    }
 
     /**
      * Show the form for creating a new resource.

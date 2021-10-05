@@ -29,7 +29,7 @@
     <!-- 施設情報の説明文 -->
     <!-- 施設基本情報 -->
 
-    <form method="post" action="{{ route('sento.store') }}">
+    <form method="post" enctype="multipart/form-data" action="{{ route('sento.store') }}" >
         @csrf
 
         <h3><span>基本情報</span></h3>
