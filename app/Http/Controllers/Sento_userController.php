@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Sento_user;
+use App\Models\User;
+use Illuminate\Foundation\Auth\User as AuthUser;
 use Illuminate\Support\Facades\Auth;
 
 
@@ -22,11 +24,11 @@ class Sento_userController extends Controller
         // $sento_user = Sento_user::first();
         // dd($sento_user);
 
-        $sento_user = Sento_user::all();
-        dd($sento_user);
+        // $sento_user = Sento_user::all();
+        // // dd($sento_user);
 
-        return view('sento_users')
-            ->with(['sento_user' => $sento_user]);
+        // return view('sento_users')
+        //     ->with(['sento_user' => $sento_user]);
 
         // $user = Auth::user();
 
@@ -34,6 +36,14 @@ class Sento_userController extends Controller
         // dd($sento_user);
         // return view('sento_users')
         //     ->with(['sento_user' => $sento_user]);
+
+        $user_id = Auth::id();
+        $sento_user = Sento_user::where('user_id', $user_id)->first();
+        // dd($sento_user);
+
+        return view('sento_users')
+          ->with(['sento_user' => $sento_user]);
+
 
     }
 
@@ -82,8 +92,10 @@ class Sento_userController extends Controller
             'profile.required' => '意気込みを入力してください',
         ]);
 
+        $user_id = Auth::id();
+
         $sento_user = new Sento_user();
-        $sento_user->user_id = Auth::id();
+        $sento_user->user_id = $request->$user_id;
         $sento_user->file = $request->file;
         $sento_user->sento_name = $request->sento_name;
         $sento_user->gender = $request->gender;
@@ -97,6 +109,8 @@ class Sento_userController extends Controller
         $sento_user->profile = $request->profile;
         $sento_user->save();
 
+        // dd($sento_user);
+
         return redirect()
             ->route('sento_users');
 
@@ -108,11 +122,13 @@ class Sento_userController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
+
     public function show($id)
     {
 
         // return view('sento_users_edit');
     }
+
 
     /**
      * Show the form for editing the specified resource.

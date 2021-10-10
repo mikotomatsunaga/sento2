@@ -21,7 +21,7 @@
                     <ul>
                         <li class="mypageProfile_list">
                             <span class="mypageProfile_key">セント歴</span>
-                            <span class="mypageProfile_value">年</span><span class="mypageProfile_value">ヶ月</span>
+                            <span class="mypageProfile_value">{{ $sento_user->carrier_year }}年</span><span class="mypageProfile_value">{{ $sento_user->carrier_month }}ヶ月</span>
                         </li>
                         <li class="mypageProfile_list">
                             <span class="mypageProfile_key">ホームセント</span>

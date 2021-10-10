@@ -107,8 +107,7 @@ Route::get('/sento_users/create', [Sento_userController::class, 'create'])
     ->name('sento_users_create');
 
 // Route::get('/sento_users/edit/{sento_user}', [PostController::class, 'edit'])
-//     ->name('sento_users_edit')
-//     ->where('sento_user','[0-9]+');
+//     ->name('sento_users_edit');
 
 Route::post('/sento_users/store', [Sento_userController::class, 'store'])
     ->name('sento_users_store');
@@ -135,6 +134,9 @@ Route::get('/', [TopController::class, 'index'])
 
 Route::get('/dashboard', [DashboardController::class, 'index'])
     ->name('dashboard');
+
+// Route::get('/dashboard', [DashboardController::class, 'show'])
+//     ->name('dashboard.show');
 
 
 

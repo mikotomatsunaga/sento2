@@ -31,14 +31,14 @@ class SentoController extends Controller
      * @return \Illuminate\Http\Response
      */
 
-    public function show(Sento $sentos)
+    public function show(Sento $sento)
     {
         // $sento = Sento::latest()->get();
         // $sento = Sento::first();
         // dd($sento);
 
         return view('sentos')
-            ->with(['sentos' => $sentos]);
+            ->with(['sento' => $sento]);
 
 
     }

@@ -257,7 +257,7 @@
     <div class="topSentou_wrap">
         @forelse ($sento as $sento)
         <div class="topSentou_box">
-            <a href="{{ route('sentos') }}">
+            <a href="{{ route('sento.show', $sento) }}">
                 <!-- 新着銭湯(1)-->
                 <div class="topSentou_wrap_img">
                     <img src="https://img.sauna-ikitai.com/sauna/11064_20210410_121359_DB3RkywNQH_medium.jpg" width=270

@@ -383,6 +383,7 @@
                             </div>
                             <div class="c-form_button">
                                 <div class="c-button-submit">
+                                    <input type="hidden" name="user_id"/>
                                     <input type="submit" value="登録する"/>
                                 </div>
                             </div>

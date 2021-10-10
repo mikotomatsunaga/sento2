@@ -18,12 +18,12 @@ class TopController extends Controller
         $sekatsu_user = Sekatsu_user::latest()->orderByDesc('id')->limit(5)->get();
         // dd($sekatsu_user);
 
-        $sento = Sento::latest()->orderByDesc('id')->limit(5)->get();
+        $sentos = Sento::latest()->orderByDesc('id')->limit(5)->get();
         // dd($sento);
 
         return view('top')
         ->with(['sekatsu_user' => $sekatsu_user])
-        ->with(['sento' => $sento]);
+        ->with(['sento' => $sentos]);
 
     }
 
@@ -73,10 +73,17 @@ class TopController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
-    {
-        //
-    }
+    // public function show(Sento $sento)
+    // {
+    //     // $sento = Sento::latest()->get();
+    //     // $sento = Sento::first();
+    //     // dd($sento);
+
+    //     return view('sentos')
+    //         ->with(['sento' => $sento]);
+
+
+    // }
 
     /**
      * Show the form for editing the specified resource.

@@ -17,7 +17,7 @@
     <x-auth-validation-errors class="mb-4" :errors="$errors" />
     <div class="login">
         <div class="login_content">
-            <h1 class="login_logo"><a href="/"><img src="{{ url('img/セントイキタイロゴ.png') }}" width=180 height=140 alt="サウナイキタイ ログイン"></a></h1>
+            <div class="login_logo"><a href="/"><img src="{{ url('img/セントイキタイロゴ.png') }}" width=180 height=140 alt="サウナイキタイ ログイン"></a></div>
 
             <div class="tab" data-current="login">
                 <nav class="tab_action">
