@@ -12,7 +12,7 @@ class Sento_user extends Model
     protected $table = 'sento_users';
 
     protected $fillable = [
-        'user_id',
+        // 'user_id',
         'file',
         'sento_name',
         'gender',

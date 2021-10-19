@@ -39,7 +39,7 @@ class Sento_userController extends Controller
 
         $user_id = Auth::id();
         $sento_user = Sento_user::where('user_id', $user_id)->first();
-        // dd($sento_user);
+        // dd($user_id);
 
         return view('sento_users')
           ->with(['sento_user' => $sento_user]);
@@ -53,6 +53,7 @@ class Sento_userController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function create()
+
     {
          return view('sento_users_edit');
     }
@@ -66,36 +67,40 @@ class Sento_userController extends Controller
 
     public function store(Request $request)
     {
-        $request->validate([
-            'file' => 'required',
-            'sento_name' => 'required',
-            'gender' => 'required',
-            'birth_year' => 'required',
-            'birth_month' => 'required',
-            'birth_day' => 'required',
-            'carrier_year' => 'required',
-            'carrier_month' => 'required',
-            'home_sento' => 'required',
-            'went_to_go_sento' => 'required',
-            'profile' => 'required',
-        ], [
-            'file.required' => '写真が添付されていません',
-            'sento_name.min.required' => 'セントネームを入力してください',
-            'gender.required' => '性別を入力して下さい',
-            'birth_year.required' => '生まれた年を入力してください',
-            'birth_month.required' => '生まれた月を入力してください',
-            'birth_day.required' => '生まれた日付を入力してください',
-            'carrier_year.required' => 'セント歴の「年」を入力してください',
-            'carrier_month.required' => 'セント歴の「月」を入力してください',
-            'home_sento.required' => 'ホームセントを入力して下さい',
-            'went_to_go_sento.required' => '行きたいセントを入力してください',
-            'profile.required' => '意気込みを入力してください',
-        ]);
+
+
+        // $request->validate([
+        //     'file' => 'required',
+        //     'sento_name' => 'required',
+        //     'gender' => 'required',
+        //     'birth_year' => 'required',
+        //     'birth_month' => 'required',
+        //     'birth_day' => 'required',
+        //     'carrier_year' => 'required',
+        //     'carrier_month' => 'required',
+        //     'home_sento' => 'required',
+        //     'went_to_go_sento' => 'required',
+        //     'profile' => 'required',
+        // ], [
+        //     'file.required' => '写真が添付されていません',
+        //     'sento_name.min.required' => 'セントネームを入力してください',
+        //     'gender.required' => '性別を入力して下さい',
+        //     'birth_year.required' => '生まれた年を入力してください',
+        //     'birth_month.required' => '生まれた月を入力してください',
+        //     'birth_day.required' => '生まれた日付を入力してください',
+        //     'carrier_year.required' => 'セント歴の「年」を入力してください',
+        //     'carrier_month.required' => 'セント歴の「月」を入力してください',
+        //     'home_sento.required' => 'ホームセントを入力して下さい',
+        //     'went_to_go_sento.required' => '行きたいセントを入力してください',
+        //     'profile.required' => '意気込みを入力してください',
+        // ]);
+
+        // dd("aaaaa");
 
         $user_id = Auth::id();
 
         $sento_user = new Sento_user();
-        $sento_user->user_id = $request->$user_id;
+        $sento_user->user_id = $user_id;
         $sento_user->file = $request->file;
         $sento_user->sento_name = $request->sento_name;
         $sento_user->gender = $request->gender;
@@ -109,10 +114,9 @@ class Sento_userController extends Controller
         $sento_user->profile = $request->profile;
         $sento_user->save();
 
-        // dd($sento_user);
-
         return redirect()
             ->route('sento_users');
+
 
     }
 

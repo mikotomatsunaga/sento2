@@ -15,7 +15,7 @@ class CreateSentoUsersTable extends Migration
     {
         Schema::create('sento_users', function (Blueprint $table) {
             $table->id();
-            $table->bigInteger('user_id')->unsigned();
+            $table->bigInteger('user_id')->unsigned()->nullable();
             $table->foreign('user_id')->references('id')->on('users');
             $table->string('file')->nullable();
             $table->string('sento_name', 20)->nullable();
